@@ -1,0 +1,2196 @@
+<html><script type="text/javascript" async="" src="//web.archive.org/web/20150123050414/http://assets.pinterest.com/js/pinit_main.js?PIN_16458"></script><script src="http://web.archive.org/web/20150123050707js_/https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.VFWwn27IHLE.O/m=auth/exm=plusone/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCNLc-zgoaZiAf5WUobLdxF_tbR3_w/t=zcms/cb=gapi.loaded_1" async=""></script><script src="http://web.archive.org/web/20150123050707js_/https://apis.google.com/_/scs/apps-static/_/js/k=oz.gapi.en_US.VFWwn27IHLE.O/m=plusone/rt=j/sv=1/d=1/ed=1/am=AQ/rs=AGLTcCNLc-zgoaZiAf5WUobLdxF_tbR3_w/t=zcms/cb=gapi.loaded_0" async=""></script><script id="hs-analytics" src="//web.archive.org/web/20150123050707/http://js.hs-analytics.net/analytics/1421989800000/427840.js"></script><script src="http://web.archive.org/web/20150123050707/http://edge.quantserve.com/quant.js" async="" type="text/javascript"></script><script type="text/javascript" async="" src="http://web.archive.org/web/20150123050707/https://apis.google.com/js/plusone.js"></script><script id="twitter-wjs" src="//web.archive.org/web/20150123050707/http://platform.twitter.com/widgets.js"></script><script type="text/javascript" async="" src="http://stats.g.doubleclick.net/dc.js"></script><script type="text/javascript" class="__REQUESTLY__SCRIPT">(function (namespace) {
+  window[namespace] = window[namespace] || {};
+  window[namespace].responseRules = {};
+
+  let open = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function (method) {
+    this.addEventListener(
+      "readystatechange",
+      function () {
+        if (
+          this.readyState === 4 &&
+          window[namespace].responseRules.hasOwnProperty(this.responseURL)
+        ) {
+          const responseRule =
+            window[namespace].responseRules[this.responseURL];
+          const { response, id } = responseRule;
+          const responseType = this.responseType;
+          let customResponse;
+
+          customResponse =
+            response.type === "code"
+              ? responseRule.evaluator({
+                  method,
+                  url: this.responseURL,
+                  requestHeaders: this.requestHeaders,
+                  requestData: this.requestData,
+                  responseType: this.responseType,
+                  response: this.response,
+                })
+              : response.value;
+
+          Object.defineProperty(this, "response", {
+            get: function () {
+              if (response.type === "static" && responseType === "json") {
+                return JSON.parse(customResponse);
+              }
+              return customResponse;
+            },
+          });
+
+          if (responseType === "" || responseType === "text") {
+            Object.defineProperty(this, "responseText", {
+              get: function () {
+                return customResponse;
+              },
+            });
+          }
+
+          window.postMessage(
+            {
+              from: "requestly",
+              type: "response_rule_applied",
+              id,
+            },
+            window.location.href
+          );
+        }
+      },
+      false
+    );
+    open.apply(this, arguments);
+  };
+
+  let send = XMLHttpRequest.prototype.send;
+  XMLHttpRequest.prototype.send = function (data) {
+    this.requestData = data;
+    send.apply(this, arguments);
+  };
+
+  let setRequestHeader = XMLHttpRequest.prototype.setRequestHeader;
+  XMLHttpRequest.prototype.setRequestHeader = function (header, value) {
+    this.requestHeaders = this.requestHeaders || {};
+    this.requestHeaders[header] = value;
+    setRequestHeader.apply(this, arguments);
+  };
+})('__REQUESTLY__')</script><head><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app12.us.archive.org';v.server_ms=185;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="/_static/js/playback.bundle.js?v=xTFGO54E" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://goanimate.com/videos/09kLfDswzMA4","20150123050707","http://web.archive.org/","web","/_static/",
+	      "1421989627");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=omkqRugM">
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ">
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="dns-prefetch" href="//web.archive.org/web/20150123050707/http://lightspeed.goanimate.com/">
+
+<title>Caillou sets Gilbert off Free/ Ungrounded - African Vulture™</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="title" content="Caillou sets Gilbert off Free/ Ungrounded - African Vulture™">
+<meta name="description" content="Watch the video: Caillou sets Gilbert off Free/ Ungrounded by African Vulture™ on GoAnimate.">
+<link rel="canonical" href="http://web.archive.org/web/20150123050707/http://goanimate.com/videos/09kLfDswzMA4">
+<link rel="image_src" href="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/movie/1963/7876963/22562233.jpg">
+<link rel="video_src" href="http://goanimate.com/player/swf/09kLfDswzMA4">
+<meta name="video_height" content="309">
+<meta name="video_width" content="550">
+<meta name="video_type" content="application/x-shockwave-flash">
+<meta name="medium" content="video">
+
+<meta property="og:type" content="article">
+<meta property="og:title" content="Caillou sets Gilbert off Free/ Ungrounded">
+<meta property="og:description" content="Caillou get ungrounded for the very first time but he's not too happy about that.">
+<meta property="og:url" content="http://web.archive.org/web/20150123050707/http://goanimate.com/videos/09kLfDswzMA4">
+<meta property="og:image" content="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/movie/1963/7876963/22562233L.jpg">
+
+<meta property="og:video" content="http://web.archive.org/web/20150123050707/http://goanimate.com/player/swf/09kLfDswzMA4">
+<meta property="og:video:height" content="309">
+<meta property="og:video:width" content="550">
+<meta property="og:video:type" content="application/x-shockwave-flash">
+
+<link rel="alternate" type="application/json+oembed" href="http://web.archive.org/web/20150123050707/http://goanimate.com/api/oembed?url=http%3A%2F%2Fgoanimate.com%2Fvideos%2F09kLfDswzMA4&amp;format=json">
+<link rel="alternate" type="text/xml+oembed" href="http://web.archive.org/web/20150123050707/http://goanimate.com/api/oembed?url=http%3A%2F%2Fgoanimate.com%2Fvideos%2F09kLfDswzMA4&amp;format=xml">
+
+<meta name="twitter:card" content="player">
+<meta name="twitter:title" content="Caillou sets Gilbert off Free/ Ungrounded - African Vulture™">
+<meta name="twitter:description" content="Watch the video: Caillou sets Gilbert off Free/ Ungrounded by African Vulture™ on GoAnimate.">
+<meta name="twitter:image:src" content="http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/movie/1963/7876963/22562233L.jpg">
+<meta name="twitter:player" content="https://goanimate.com/player/embed/09kLfDswzMA4">
+<meta name="twitter:player:height" content="349">
+<meta name="twitter:player:width" content="620">
+
+<meta property="og:site_name" content="GoAnimate">
+<meta property="fb:app_id" content="177116303202">
+
+<meta name="google-site-verification" content="K_niiTfCVi72gwvxK00O4NjsVybMutMUnc-ZnN6HUuA">
+
+<link rel="alternate" href="http://web.archive.org/web/20150123050707/http://feeds.feedburner.com/GoAnimate" type="application/rss+xml" title="GoAnimate Blog">
+<link rel="alternate" href="http://web.archive.org/web/20150123050707/http://feeds.feedburner.com/GoAnimate/WhatsNew" type="application/rss+xml" title="GoAnimate - Recently Released Content">
+<link rel="alternate" href="http://web.archive.org/web/20150123050707/http://feeds.feedburner.com/GoAnimate/MostWatched" type="application/rss+xml" title="GoAnimate - Most Watched">
+
+<link href="//web.archive.org/web/20150123050707cs_/http://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet" type="text/css">
+<link href="http://web.archive.org/web/20150123050707cs_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/css/common_combined.css" rel="stylesheet" type="text/css">
+
+<link href="http://web.archive.org/web/20150123050707cs_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/css/upsell_modals.css" rel="stylesheet" type="text/css">
+<link href="http://web.archive.org/web/20150123050707cs_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/css/watermark.css" rel="stylesheet" type="text/css">
+<link href="http://web.archive.org/web/20150123050707cs_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/css/video.css" rel="stylesheet" type="text/css">
+<link href="http://web.archive.org/web/20150123050707cs_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/css/videos.css" rel="stylesheet" type="text/css">
+<link href="http://web.archive.org/web/20150123050707cs_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/css/video_export.css" rel="stylesheet" type="text/css">
+<link href="http://web.archive.org/web/20150123050707cs_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/css/movie_license.css" rel="stylesheet" type="text/css">
+<link href="http://web.archive.org/web/20150123050707cs_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/css/video_voice_vendor.css" rel="stylesheet" type="text/css">
+<link href="http://web.archive.org/web/20150123050707cs_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/css/bootstrap/bootstrap-tokenfield.min.css" rel="stylesheet" type="text/css">
+<link href="http://web.archive.org/web/20150123050707cs_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/css/bootstrap/bootstrap-tokenfield-addon.css" rel="stylesheet" type="text/css">
+<link href="http://web.archive.org/web/20150123050707cs_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/css/worknote.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 9]>
+<style text="text/css">
+.top-nav.collapse {height: auto;overflow: visible;}
+</style>
+<![endif]-->
+
+<script>
+var srv_tz_os = -5, view_name = "go", user_cookie_name = "u_info";
+</script>
+
+<script src="http://web.archive.org/web/20150123050707js_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/js/common_combined.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20150123050707js_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/po/goserver_js-en_US.json"></script>
+<script type="text/javascript">
+var I18N_LANG = 'en_US';
+var GT = new Gettext({'locale_data': json_locale_data});
+</script>
+
+<script src="http://web.archive.org/web/20150123050707js_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/js/comments.js"></script>
+<script src="http://web.archive.org/web/20150123050707js_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/js/hubspot.js"></script>
+<script src="http://web.archive.org/web/20150123050707js_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/js/jquery/jquery-ui-1.10.4/jquery.ui.core.min.js"></script>
+<script src="http://web.archive.org/web/20150123050707js_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/js/jquery/jquery-ui-1.10.4/jquery.ui.widget.min.js"></script>
+<script src="http://web.archive.org/web/20150123050707js_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/js/jquery/jquery-ui-1.10.4/jquery.ui.position.min.js"></script>
+<script src="http://web.archive.org/web/20150123050707js_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/js/jquery/jquery-ui-1.10.4/jquery.ui.menu.min.js"></script>
+<script src="http://web.archive.org/web/20150123050707js_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/js/jquery/jquery-ui-1.10.4/jquery.ui.autocomplete.min.js"></script>
+<script src="http://web.archive.org/web/20150123050707js_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/js/bootstrap/bootstrap-tokenfield.min.js"></script>
+<script src="http://web.archive.org/web/20150123050707js_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/js/trial_upsell.js"></script>
+<script src="http://web.archive.org/web/20150123050707js_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/js/lib/moment.min.js"></script>
+<script src="http://web.archive.org/web/20150123050707js_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/js/country-options.js"></script>
+
+
+<script type="text/javascript" src="http://web.archive.org/web/20150123050707js_/http://www.google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-2516970-1']);
+_gaq.push(['_setDomainName', 'none']);
+_gaq.push(['_trackPageview', '/movie']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+<!-- GoAnimate_Footer_ROS_Bottom_960x284 -->
+<script type="text/javascript" src="http://web.archive.org/web/20150123050707js_/http://partner.googleadservices.com/gampad/google_service.js">
+</script>
+<script type="text/javascript">
+GS_googleAddAdSenseService("ca-pub-9090384317741239");
+GS_googleEnableAllServices();
+</script><script src="http://partner.googleadservices.com/gampad/google_ads.js"></script>
+<script type="text/javascript">
+GA_googleAddAttr("is_login", "no");
+GA_googleAddAttr("is_plus", "no");
+GA_googleAddAttr("is_creator", "no");
+</script>
+<script type="text/javascript">
+GA_googleAddSlot("ca-pub-9090384317741239", "GoAnimate_Footer_ROS_Bottom_960x284");
+GA_googleAddSlot("ca-pub-9090384317741239", "GoAnimate_Movie_ATF_Right_300x250");
+GA_googleAddSlot("ca-pub-9090384317741239", "GoAnimate_AboutUs_300x250");
+GA_googleAddSlot("ca-pub-9090384317741239", "GoAnimate_Upsell_1_Year_300x250");
+GA_googleAddSlot("ca-pub-9090384317741239", "GoAnimate_GoTeam_Upsell_300x250");
+</script>
+<script type="text/javascript">
+GA_googleFetchAds();
+</script>
+<!-- GoAnimate_Footer_ROS_Bottom_960x284 -->
+
+
+<link href="https://plus.google.com/+goanimate" rel="publisher">
+
+<style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(http://web.archive.org/web/20150123050707if_/https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(http://web.archive.org/web/20150123050707if_/https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(http://web.archive.org/web/20150123050707if_/https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(http://web.archive.org/web/20150123050707if_/https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(http://web.archive.org/web/20150123050707if_/https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(http://web.archive.org/web/20150123050707if_/https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f8;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(http://web.archive.org/web/20150123050707if_/https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(http://web.archive.org/web/20150123050707if_/https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(http://web.archive.org/web/20150123050707if_/https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(http://web.archive.org/web/20150123050707if_/https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3a5795;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(http://web.archive.org/web/20150123050707if_/https://fbstatic-a.akamaihd.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(http://web.archive.org/web/20150123050707if_/https://fbstatic-a.akamaihd.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #2f477a;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(http://web.archive.org/web/20150123050707if_/https://fbstatic-a.akamaihd.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f8;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(http://web.archive.org/web/20150123050707if_/https://fbstatic-a.akamaihd.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style><style type="text/css">a.PIN_1421989629968_pin_it_button_20 { cursor: pointer!important; background-repeat: none!important; background-size: 40px 60px!important; height: 20px!important; padding: 0!important; vertical-align: baseline!important; text-decoration: none!important; width: 40px!important; background-position: 0 -20px }
+a.PIN_1421989629968_pin_it_button_20:hover { background-position: 0 0px }
+a.PIN_1421989629968_pin_it_button_20:active, a.PIN_1421989629968_pin_it_button_20.PIN_1421989629968_hazClick { background-position: 0 -40px }
+a.PIN_1421989629968_pin_it_button_inline_20 { cursor: pointer!important; position: relative!important; display: inline-block!important; }
+a.PIN_1421989629968_pin_it_button_floating_20 { cursor: pointer!important; position: absolute!important; }
+a.PIN_1421989629968_pin_it_beside_20_pad { margin-right: 45px!important; }
+a.PIN_1421989629968_pin_it_button_en_20_red { background-image: url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/pinit_bg_en_rect_red_20_1.png)!important; }
+a.PIN_1421989629968_pin_it_button_en_20_white { background-image: url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/pinit_bg_en_rect_white_20_1.png)!important; }
+a.PIN_1421989629968_pin_it_button_en_20_gray { background-image: url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/pinit_bg_en_rect_gray_20_1.png)!important; }
+a.PIN_1421989629968_pin_it_button_ja_20_red { background-image: url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/pinit_bg_ja_rect_red_20_1.png)!important; }
+a.PIN_1421989629968_pin_it_button_ja_20_white { background-image: url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/pinit_bg_ja_rect_white_20_1.png)!important; }
+a.PIN_1421989629968_pin_it_button_ja_20_gray { background-image: url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/pinit_bg_ja_rect_gray_20_1.png)!important; }
+a.PIN_1421989629968_pin_it_above_20 span.PIN_1421989629968_pin_it_button_count { background: transparent url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/count_north_white_rect_20_1.png) 0 0 no-repeat!important; background-size: 40px 29px!important; position: absolute!important; bottom: 21px!important; left: 0px!important; height: 29px!important; width: 40px!important; font: 12px Arial, Helvetica, sans-serif!important; line-height: 24px!important; text-indent: 0!important;}
+a.PIN_1421989629968_pin_it_button_20 span.PIN_1421989629968_pin_it_button_count { position: absolute!important; color: #777!important; text-align: center!important; text-indent: 0!important; }
+a.PIN_1421989629968_pin_it_beside_20 span.PIN_1421989629968_pin_it_button_count, a.PIN_1421989629968_pin_it_beside_20 span.PIN_1421989629968_pin_it_button_count i { background-color: transparent!important; background-repeat: no-repeat!important; background-image: url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/count_east_white_rect_20_1.png)!important; }
+a.PIN_1421989629968_pin_it_beside_20 span.PIN_1421989629968_pin_it_button_count { padding: 0 3px 0 10px!important; background-size: 45px 20px!important; background-position: 0 0!important; position: absolute!important; top: 0!important; left: 41px!important; height: 20px!important; font: 10px Arial, Helvetica, sans-serif!important; line-height: 20px!important; }
+a.PIN_1421989629968_pin_it_beside_20 span.PIN_1421989629968_pin_it_button_count i { background-position: 100% 0!important; position: absolute!important; top: 0!important; right: -2px!important; height: 20px!important; width: 2px!important; }
+a.PIN_1421989629968_pin_it_button_20.PIN_1421989629968_pin_it_above { margin-top: 20px!important; }
+a.PIN_1421989629968_pin_it_button_28 { cursor: pointer!important; background-repeat: none!important; background-size: 56px 84px!important; height: 28px!important; padding: 0!important; vertical-align: baseline!important; text-decoration: none!important; width: 56px!important; background-position: 0 -28px }
+a.PIN_1421989629968_pin_it_button_28:hover { background-position: 0 0px }
+a.PIN_1421989629968_pin_it_button_28:active, a.PIN_1421989629968_pin_it_button_28.PIN_1421989629968_hazClick { background-position: 0 -56px }
+a.PIN_1421989629968_pin_it_button_inline_28 { cursor: pointer!important; position: relative!important; display: inline-block!important; }
+a.PIN_1421989629968_pin_it_button_floating_28 { cursor: pointer!important; position: absolute!important; }
+a.PIN_1421989629968_pin_it_beside_28_pad { margin-right: 50px!important;}
+a.PIN_1421989629968_pin_it_button_en_28_red { background-image: url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/pinit_bg_en_rect_red_28_1.png)!important; }
+a.PIN_1421989629968_pin_it_button_en_28_white { background-image: url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/pinit_bg_en_rect_white_28_1.png)!important; }
+a.PIN_1421989629968_pin_it_button_en_28_gray { background-image: url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/pinit_bg_en_rect_gray_28_1.png)!important; }
+a.PIN_1421989629968_pin_it_button_ja_28_red { background-image: url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/pinit_bg_ja_rect_red_28_1.png)!important; }
+a.PIN_1421989629968_pin_it_button_ja_28_white { background-image: url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/pinit_bg_ja_rect_white_28_1.png)!important; }
+a.PIN_1421989629968_pin_it_button_ja_28_gray { background-image: url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/pinit_bg_ja_rect_gray_28_1.png)!important; }
+a.PIN_1421989629968_pin_it_button_en_16_red_round, a.PIN_1421989629968_pin_it_button_en_32_red_round { background-repeat: none!important; margin: 0!important; padding: 0!important; vertical-align: baseline!important; text-decoration: none!important; }
+a.PIN_1421989629968_pin_it_button_en_16_red_round { height: 16px!important; width: 16px!important; background-size: 16px 16px!important; background-image: url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/pinit_bg_en_round_red_16_1.png)!important;}
+a.PIN_1421989629968_pin_it_button_en_32_red_round { height: 32px!important; width: 32px!important; background-size: 32px 32px!important; background-image: url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/pinit_bg_en_round_red_32_1.png)!important;}
+a.PIN_1421989629968_pin_it_button_inline_en_16_red_round, a.PIN_1421989629968_pin_it_button_inline_en_32_red_round { position: relative!important; display: inline-block!important; }
+a.PIN_1421989629968_pin_it_button_floating_en_16_red_round, a.PIN_1421989629968_pin_it_button_floating_en_32_red_round  { position: absolute!important; }
+a.PIN_1421989629968_pin_it_button_28 span.PIN_1421989629968_pin_it_button_count { position: absolute!important; color: #777!important; text-align: center!important; text-indent: 0!important; }
+a.PIN_1421989629968_pin_it_above_28 span.PIN_1421989629968_pin_it_button_count { background: transparent url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/count_north_white_rect_28_1.png) 0 0 no-repeat!important; background-size: 56px 37px!important; position: absolute!important; bottom: 29px!important; left: 0px!important; height: 37px!important; width: 56px!important; font: 15px Arial, Helvetica, sans-serif!important; line-height: 28px!important; text-indent: 0!important;}
+a.PIN_1421989629968_pin_it_beside_28 span.PIN_1421989629968_pin_it_button_count, a.PIN_1421989629968_pin_it_beside_28 span.PIN_1421989629968_pin_it_button_count i { background-color: transparent!important; background-repeat: no-repeat!important; background-image: url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/count_east_white_rect_28_1.png)!important; }
+a.PIN_1421989629968_pin_it_beside_28 span.PIN_1421989629968_pin_it_button_count { padding: 0 3px 0 10px!important; background-size: 63px 28px!important; background-position: 0 0!important; position: absolute!important; top: 0!important; left: 57px!important; height: 28px!important; font: 12px Arial, Helvetica, sans-serif!important; line-height: 28px!important; }
+a.PIN_1421989629968_pin_it_beside_28 span.PIN_1421989629968_pin_it_button_count i { background-position: 100% 0!important; position: absolute!important; top: 0!important; right: -2px!important; height: 28px!important; width: 2px!important; }
+a.PIN_1421989629968_pin_it_button_28.PIN_1421989629968_pin_it_above { margin-top: 28px!important; }
+a.PIN_1421989629968_follow_me_button, a.PIN_1421989629968_follow_me_button i { background-size: 200px 60px!important; background: transparent url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/bfs1.png) 0 0 no-repeat }
+a.PIN_1421989629968_follow_me_button { cursor: pointer!important; color: #444!important; display: inline-block!important; font: bold normal normal 11px/20px "Helvetica Neue",helvetica,arial,san-serif!important; height: 20px!important; margin: 0!important; padding: 0!important; position: relative!important; text-decoration: none!important; text-indent: 19px!important; vertical-align: baseline!important;}
+a.PIN_1421989629968_follow_me_button:hover { background-position: 0 -20px}
+a.PIN_1421989629968_follow_me_button:active  { background-position: 0 -40px}
+a.PIN_1421989629968_follow_me_button b { position: absolute!important; top: 3px!important; left: 3px!important; height: 14px!important; width: 14px!important; background-size: 14px 14px!important; background-image: url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/log1.png)!important; }
+a.PIN_1421989629968_follow_me_button i { position: absolute!important; top: 0!important; right: -4px!important; height: 20px!important; width: 4px!important; background-position: 100% 0px!important; }
+a.PIN_1421989629968_follow_me_button:hover i { background-position: 100% -20px!important;  }
+a.PIN_1421989629968_follow_me_button:active i { background-position: 100% -40px!important; }
+a.PIN_1421989629968_follow_me_button_28, a.PIN_1421989629968_follow_me_button_28 i { background-size: 400px 84px!important; background: transparent url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/bft1.png) 0 0 no-repeat }
+a.PIN_1421989629968_follow_me_button_28 { cursor: pointer!important; color: #444!important; display: inline-block!important; font: bold normal normal 13px/28px "Helvetica Neue",helvetica,arial,san-serif!important; height: 28px!important; margin: 0!important; padding: 0!important; position: relative!important; text-decoration: none!important; text-indent: 33px!important; vertical-align: baseline!important;}
+a.PIN_1421989629968_follow_me_button_28:hover { background-position: 0 -28px}
+a.PIN_1421989629968_follow_me_button_28:active  { background-position: 0 -56px}
+a.PIN_1421989629968_follow_me_button_28 b { position: absolute!important; top: 5px!important; left: 10px!important; height: 18px!important; width: 18px!important; background-size: 18px 18px!important; background-image: url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/smt1.png)!important; }
+a.PIN_1421989629968_follow_me_button_28 i { position: absolute!important; top: 0!important; right: -10px!important; height: 28px!important; width: 10px!important; background-position: 100% 0px!important; }
+a.PIN_1421989629968_follow_me_button_28:hover i { background-position: 100% -28px!important;  }
+a.PIN_1421989629968_follow_me_button_28:active i { background-position: 100% -56px!important; }
+span.PIN_1421989629968_embed_pin { -webkit-font-smoothing: antialiased!important; cursor: pointer!important; display: inline-block!important; text-align: center!important; width: 237px!important; overflow: hidden!important; vertical-align: top!important; }
+span.PIN_1421989629968_embed_pin.PIN_1421989629968_fancy { background: #fff!important; box-shadow: 0 1px 3px rgba(0, 0, 0, .33)!important; border-radius: 3px!important; }
+span.PIN_1421989629968_embed_pin a.PIN_1421989629968_embed_pin_link { display: block!important;  margin: 0 auto!important; padding: 0!important; position: relative!important;  line-height: 0}
+span.PIN_1421989629968_embed_pin img.PIN_1421989629968_embed_pin_link_img { border: 0!important; margin: 0!important; padding: 0!important; border-bottom: 1px solid rgba(0, 0, 0, .09)!important;}
+span.PIN_1421989629968_embed_pin a.PIN_1421989629968_embed_pin_link i.PIN_1421989629968_repin { left: 12px!important; top: 12px!important; position: absolute!important; height: 20px!important; width: 40px!important; background-size: 40px 60px!important;  background: transparent url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/pinit_bg_en_rect_red_20_1.png) }
+span.PIN_1421989629968_embed_pin a.PIN_1421989629968_embed_pin_link i.PIN_1421989629968_repin_ja { left: 12px!important; top: 12px!important; position: absolute!important; height: 20px!important; width: 40px!important; background-size: 40px 60px!important; background: transparent url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/pinit_bg_ja_rect_red_20_1.png) }
+span.PIN_1421989629968_embed_pin a.PIN_1421989629968_embed_pin_link i.PIN_1421989629968_repin:hover, span.PIN_1421989629968_embed_pin a.PIN_1421989629968_embed_pin_link i.PIN_1421989629968_repin_ja:hover { background-position: 0 -20px!important; }
+span.PIN_1421989629968_embed_pin a.PIN_1421989629968_embed_pin_link i.PIN_1421989629968_repin.PIN_1421989629968_hazClick, span.PIN_1421989629968_embed_pin a.PIN_1421989629968_embed_pin_link i.PIN_1421989629968_repin_ja.PIN_1421989629968_hazClick { background-position: 0 -40px!important; }
+span.PIN_1421989629968_embed_pin a.PIN_1421989629968_embed_pin_link i.PIN_1421989629968_play { display: block!important; width: 50px!important; white-space: pre!important; font-family: "Helvetica Neue",helvetica,arial,san-serif!important; font-weight: bold!important; font-style: normal!important; font-size: 9px!important; line-height: 12px!important; margin: 0!important; position: absolute!important; bottom: 12px!important; left: 12px!important; text-decoration: none!important; background: rgba(0, 0, 0, .4)!important; color: rgba(255, 255, 255, 1)!important; border-radius: 13px!important; padding: 5px 0!important; box-shadow: 0 0 2px rgba(0, 0, 0, .2)!important; border: 2px solid rgba(255, 255, 255, .68)!important;}
+span.PIN_1421989629968_embed_pin a.PIN_1421989629968_embed_pin_link i.PIN_1421989629968_play:hover { background: rgba(0, 0, 0, .8)!important; color: #fff!important; }
+span.PIN_1421989629968_embed_pin span.PIN_1421989629968_embed_pin_desc { color: #363636!important; white-space: normal!important; border-bottom: 1px solid rgba(0, 0, 0, .09)!important;!important; display: block!important; font-family: "Helvetica Neue", arial, sans-serif!important; font-size: 13px!important; line-height: 17px!important; padding: 12px!important; text-align: left!important; }
+span.PIN_1421989629968_embed_pin span.PIN_1421989629968_embed_pin_attrib { color: #a8a8a8!important; font-family: "Helvetica Neue", sans-serif!important; font-size: 11px!important; line-height: 18px!important; margin-top: 12px!important; font-weight: bold!important; display: block!important;}
+span.PIN_1421989629968_embed_pin span.PIN_1421989629968_embed_pin_attrib img.PIN_1421989629968_embed_pin_attrib_icon { height: 16px!important; width: 16px!important; vertical-align: middle!important; padding: 0!important; margin: 0 5px 0 0!important; float: left!important;}
+span.PIN_1421989629968_embed_pin span.PIN_1421989629968_embed_pin_attrib a { color: #a8a8a8!important; text-decoration: none!important;}
+span.PIN_1421989629968_embed_pin span.PIN_1421989629968_embed_pin_stats { display: block!important; }
+span.PIN_1421989629968_embed_pin span.PIN_1421989629968_embed_pin_stats span.PIN_1421989629968_embed_pin_stats_repin_count, span.PIN_1421989629968_embed_pin span.PIN_1421989629968_embed_pin_stats span.PIN_1421989629968_embed_pin_stats_like_count { display: inline-block!important; padding-left: 17px!important; padding-right: 10px!important; color: #a8a8a8!important; font-family: "Helvetica Neue", sans-serif!important; font-size: 11px!important; line-height: 12px!important; margin-top: 12px!important; font-weight: bold!important; }
+span.PIN_1421989629968_embed_pin span.PIN_1421989629968_embed_pin_stats span.PIN_1421989629968_embed_pin_stats_repin_count { background: url(data:image/png!important;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAALCAAAAABq7uO+AAAASklEQVQI10WNMQrAMBRCvf/Z3pQcImPplsIPdqhNXOSJqLxVtnWQsuUO9IM3cHlV8dSSDZQHAOPH2YA2FU+qtH7MRhaVh/xt/PQCEW6N4EV+CPEAAAAASUVORK5CYII=) 0 0 no-repeat!important; }
+span.PIN_1421989629968_embed_pin span.PIN_1421989629968_embed_pin_stats span.PIN_1421989629968_embed_pin_stats_like_count { background: url(data:image/png!important;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAKCAAAAAClR+AmAAAAUElEQVR4AT2HMQpFIQwEc/+zbXhFLBW8QUihIAT2E8Q/xe6M0Jv2zK7NKUcBzAlAjzjqtdZl4c8S2nOjMPS6BoWMr/wLVnAbYJs3mGMkXzx+OeRqUf5HHRoAAAAASUVORK5CYII=) 0 2px no-repeat!important; }
+span.PIN_1421989629968_embed_pin span.PIN_1421989629968_embed_pin_text { padding: 12px!important; position: relative!important; text-decoration: none!important; display: block!important; font-weight: bold!important; color: #b7b7b7!important; font-family: "Helvetica Neue", arial, sans-serif!important; font-size: 11px!important; line-height: 14px!important; height: 30px!important; text-align: left!important; }
+span.PIN_1421989629968_embed_pin span.PIN_1421989629968_embed_pin_text img.PIN_1421989629968_embed_pin_text_avatar { border-radius: 15px!important; overflow: hidden!important; height: 30px!important; width: 30px!important; vertical-align: middle!important; margin: 0 8px 12px 0!important; float: left!important;}
+span.PIN_1421989629968_embed_pin span.PIN_1421989629968_embed_pin_text span.PIN_1421989629968_embed_pin_text_container_pinner, span.PIN_1421989629968_embed_pin a.PIN_1421989629968_embed_pin_text span.PIN_1421989629968_embed_pin_text_container_board { display: block!important; width: 175px!important; white-space: nowrap!important; overflow: hidden!important; text-overflow: ellipsis!important;}
+span.PIN_1421989629968_embed_pin span.PIN_1421989629968_embed_pin_text span.PIN_1421989629968_embed_pin_text_container_pinner { color: #777!important;}
+span.PIN_1421989629968_embed_grid { display: inline-block!important; margin: 0!important; padding:10px 0!important; position: relative!important; text-align: center}
+span.PIN_1421989629968_embed_grid.PIN_1421989629968_fancy { background: #fff!important; box-shadow: 0 1px 3px rgba(0, 0, 0, .33)!important; border-radius: 3px!important; }
+span.PIN_1421989629968_embed_grid span.PIN_1421989629968_embed_grid_hd { display: block!important; margin: 0 10px!important; padding: 0!important; height: 45px!important; position: relative!important; background: #fff}
+span.PIN_1421989629968_embed_grid span.PIN_1421989629968_embed_grid_hd a.PIN_1421989629968_avatar { position: absolute!important; top: 0!important; left: 0!important; height: 36px!important; width: 36px!important; }
+span.PIN_1421989629968_embed_grid span.PIN_1421989629968_embed_grid_hd a.PIN_1421989629968_avatar img { position: relative!important; height: 36px!important; width: 36px!important; margin: 0!important; padding: 0!important; border-radius: 3px!important; border: none!important;}
+span.PIN_1421989629968_embed_grid span.PIN_1421989629968_embed_grid_hd a { text-decoration: none!important; background: transparent!important; cursor: pointer!important; white-space: nowrap!important; position: absolute!important; left: 44px!important; text-align: left!important; overflow: hidden!important; text-overflow: ellipsis!important; }
+span.PIN_1421989629968_embed_grid span.PIN_1421989629968_embed_grid_hd a:hover { text-decoration: none!important; background: #fff!important; }
+span.PIN_1421989629968_embed_grid span.PIN_1421989629968_embed_grid_hd a:active { text-decoration: none!important; background: #fff!important; }
+span.PIN_1421989629968_embed_grid span.PIN_1421989629968_embed_grid_hd a.PIN_1421989629968_embed_grid_first { top: 2px!important; font-family: helvetica, sans-serif!important; font-weight: bold!important; color:#333!important; font-size: 14px!important; line-height: 16px!important; }
+span.PIN_1421989629968_embed_grid span.PIN_1421989629968_embed_grid_hd a.PIN_1421989629968_embed_grid_second { bottom: 11px!important; font-family: helvetica, sans-serif!important; color:#8e8e8e!important; font-size: 12px!important; line-height: 14px!important; }
+span.PIN_1421989629968_embed_grid span.PIN_1421989629968_embed_grid_hd a.PIN_1421989629968_embed_grid_mid { top: 12px!important; font-family: helvetica, sans-serif!important; font-weight: bold!important; color:#333!important; font-size: 14px!important; line-height: 16px!important; }
+span.PIN_1421989629968_embed_grid span.PIN_1421989629968_embed_grid_bd { display:block!important; margin: 0 10px!important; border-radius: 2px!important; position: relative!important; overflow: hidden }
+span.PIN_1421989629968_embed_grid span.PIN_1421989629968_embed_grid_scrolling_okay { overflow: auto!important; }
+span.PIN_1421989629968_embed_grid span.PIN_1421989629968_embed_grid_bd span.PIN_1421989629968_embed_grid_ct { display:block!important; position: relative!important; overflow: hidden!important; }
+span.PIN_1421989629968_embed_grid span.PIN_1421989629968_embed_grid_bd a.PIN_1421989629968_embed_grid_th { cursor: pointer!important; display: inline-block!important; position: absolute!important; overflow: hidden!important; }
+span.PIN_1421989629968_embed_grid span.PIN_1421989629968_embed_grid_bd a.PIN_1421989629968_embed_grid_th::before { position: absolute!important; content:""!important; z-index: 2!important; top: 0!important; left: 0!important; right: 0!important; bottom: 0!important; box-shadow: inset 0 0 2px #888!important; }
+span.PIN_1421989629968_embed_grid span.PIN_1421989629968_embed_grid_bd a.PIN_1421989629968_embed_grid_th img.PIN_1421989629968_embed_grid_img { border: none!important; position: absolute!important; top: 50%!important; left: 0!important; }
+a.PIN_1421989629968_embed_grid_ft { cursor: pointer!important; text-shadow: 0 1px #fff!important; display: block!important; text-align: center!important; border: 1px solid #ccc!important; margin: 10px 10px 0!important; height: 31px!important; line-height: 30px!important;border-radius: 2px!important; text-decoration: none!important; font-family: Helvetica!important; font-weight: bold!important; font-size: 13px!important; color: #746d6a!important; background: #f4f4f4 url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/board_button_link.png) 0 0 repeat-x}
+a.PIN_1421989629968_embed_grid_ft:hover { text-decoration: none!important; background: #fefefe url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/board_button_hover.png) 0 0 repeat-x}
+a.PIN_1421989629968_embed_grid_ft:active { text-decoration: none!important; background: #e4e4e4 url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/board_button_active.png) 0 0 repeat-x}
+a.PIN_1421989629968_embed_grid_ft span.PIN_1421989629968_embed_grid_ft_logo { vertical-align: top!important; display: inline-block!important; margin-left: 2px!important; height: 30px!important; width: 66px!important; background: transparent url(http://web.archive.org/web/20150123065551/http://passets.pinterest.com/images/pidgets/board_button_logo.png) 50% 48% no-repeat!important; }
+.PIN_1421989629968_hidden { display:none!important; }</style></head>
+<body class="en_US" data-twttr-rendered="true"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+<script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app57.us.archive.org';v.server_ms=1116;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="/_static/js/playback.bundle.js?v=xTFGO54E" charset="utf-8"></script>
+<script type="text/javascript" src="/_static/js/wombat.js?v=UHAOicsW" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://vyondhoster.000webhostapp.com:80/adam.html","20190121200822","http://web.archive.org/","web","/_static/",
+	      "1548101302");
+</script>
+<link rel="stylesheet" type="text/css" href="/_static/css/banner-styles.css?v=omkqRugM">
+<link rel="stylesheet" type="text/css" href="/_static/css/iconochive.css?v=qtvMKcIJ">
+<!-- End Wayback Rewrite JS Include -->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link rel="dns-prefetch" href="//web.archive.org/web/20190121200822/http://d2qrjeyl4jwu9j.cloudfront.net/">
+
+<title>Make a Character - Vyond For Schools</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<meta name="description" content="The Character Creator from GoAnimate - Create a character online with GoAnimate.">
+
+<meta property="og:site_name" content="GoAnimate for Schools">
+<meta property="fb:app_id" content="122508887813978">
+<meta name="google-site-verification" content="Vta3YTpj6Kx6u4p-EzeMArY0alNItkyUYYMvNM8seVI">
+
+
+<link rel="stylesheet" href="//web.archive.org/web/20190121200822cs_/http://fonts.googleapis.com/css?family=Lato:400,700">
+<link rel="stylesheet" href="http://web.archive.org/web/20190121200822cs_/https://d2qrjeyl4jwu9j.cloudfront.net/static/642cd772aad8e952/school/css/common_combined.css.gz.css">
+
+<link rel="stylesheet" href="http://web.archive.org/web/20190121200822cs_/https://d2qrjeyl4jwu9j.cloudfront.net/static/642cd772aad8e952/school/css/cc.css.gz.css">
+
+<script>
+var srv_tz_os = -4, view_name = "school", user_cookie_name = "u_info_school";
+var user_country = "US";
+</script>
+
+<!--[if lt IE 9]>
+<script src="https://d2qrjeyl4jwu9j.cloudfront.net/static/642cd772aad8e952/go/js/lib/html5shiv.js.gz.js"></script>
+<![endif]-->
+<script src="http://web.archive.org/web/20190121200822js_/https://d2qrjeyl4jwu9j.cloudfront.net/static/642cd772aad8e952/school/js/common_combined.js.gz.js"></script>
+<script type="text/javascript" src="http://web.archive.org/web/20190121200822js_/https://d2qrjeyl4jwu9j.cloudfront.net/static/642cd772aad8e952/go/po/goserver_js-en_US.json.gz.json"></script>
+<script type="text/javascript">
+var I18N_LANG = 'en_US';
+var GT = new Gettext({'locale_data': json_locale_data});
+</script>
+<script src="http://web.archive.org/web/20190121200822js_/https://goanimate4schools.com/ajax/cookie_policy" async=""></script>
+
+<!-- Google Knowledge Graph -->
+<script type="application/ld+json">
+{
+    "@context": "http://web.archive.org/web/20190121200822/http://schema.org",
+    "@type": "Organization",
+    "name": "GoAnimate",
+    "url": "http://web.archive.org/web/20190121200822/http://goanimate.com",
+    "logo": "http://web.archive.org/web/20190121200822/http://gawpstorage.s3.amazonaws.com/img/google_knowledge_graph_logo.jpg",
+    "sameAs": [
+        "http://web.archive.org/web/20190121200822/http://www.facebook.com/GoAnimateInc",
+        "http://web.archive.org/web/20190121200822/http://twitter.com/GoAnimate",
+        "http://web.archive.org/web/20190121200822/http://www.linkedin.com/company/goanimate",
+        "http://web.archive.org/web/20190121200822/http://plus.google.com/+goanimate",
+        "http://web.archive.org/web/20190121200822/http://www.youtube.com/user/GoAnimate"
+    ]
+}
+</script>
+
+
+<!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-print">The Wayback Machine - http://web.archive.org/web/20190121200822/http://vyondhoster.000webhostapp.com:80/adam.html</div>
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=http%3A//web.archive.org/web/20190121200822/http%3A//vyondhoster.000webhostapp.com/adam.html" scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><script type="text/javascript">
+__wm.bt(650,27,25,2,"web","http://vyondhoster.000webhostapp.com/adam.html","20190121200822",1996,"/_static/",["/_static/css/banner-styles.css?v=omkqRugM","/_static/css/iconochive.css?v=qtvMKcIJ"], false);
+  __wm.rw(1);
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+<script type="text/javascript">
+if (self !== top) {
+            jQuery('body').hide();
+    }
+</script>
+
+<nav class="navbar site-nav" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            <a class="navbar-brand" href="/web/20190121200822/http://vyondhoster.000webhostapp.com/" title="GoAnimate for Schools">
+                <img alt="GoAnimate for Schools" src="http://web.archive.org/web/20190121200822im_/https://d2qrjeyl4jwu9j.cloudfront.net/static/642cd772aad8e952/school/img/site/logo4s.png">
+            </a>
+        </div>
+
+        <ul class="nav site-nav-alert-nav hidden-xs">
+            <li>
+                <a href="/web/20190121200822/http://vyondhoster.000webhostapp.com/messages" title="Messages"><span class="glyphicon glyphicon-envelope"></span><span class="count"></span></a>
+            </li>
+            <li>
+                <a href="/web/20190121200822/http://vyondhoster.000webhostapp.com/notifications" title="Notifications"><span class="glyphicon glyphicon-bell"></span><span class="count"></span></a>
+            </li>
+        </ul>
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+
+                <li class="dropdown">
+                    <a class="dropdown-toggle" href="#" data-toggle="dropdown">Your Account <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/web/20190121200822/http://vyondhoster.000webhostapp.com/student">Dashboard</a></li>
+                        <li><a href="/web/20190121200822/http://vyondhoster.000webhostapp.com/movies">Your Videos</a></li>
+                        <li class="divider"></li>
+                        <li><a href="/web/20190121200822/http://vyondhoster.000webhostapp.com/account">Account Settings</a></li>
+                        <li><a href="/web/20190121200822/http://vyondhoster.000webhostapp.com/profile/0DyHqK6Yj9dM">Your Profile</a></li>
+                        <li class="divider"></li>
+                        <li><a class="logout-link" href="/web/20190121200822/http://vyondhoster.000webhostapp.com/logoff">Logout</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a class="dropdown-toggle" href="#" data-toggle="dropdown">Explore <span class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/web/20190121200822/http://vyondhoster.000webhostapp.com/students">Students</a></li>
+                        <li><a href="/web/20190121200822/http://vyondhoster.000webhostapp.com/teachers">Teachers</a></li>
+                        <li><a href="/web/20190121200822/http://vyondhoster.000webhostapp.com/videos">Videos</a></li>
+                        <li class="divider"></li>
+                        <li><a href="http://web.archive.org/web/20190121200822/https://blog.goanimate4schools.com/">Educator Experiences</a></li>
+                        <li><a href="/web/20190121200822/http://vyondhoster.000webhostapp.com/public_faq">FAQ</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a class="hidden-sm hidden-md hidden-lg" href="/web/20190121200822/http://vyondhoster.000webhostapp.com/create">Make a Video</a>
+                    <span class="site-nav-btn hidden-xs"><a class="btn btn-green" href="/web/20190121200822/http://vyondhoster.000webhostapp.com/create">Make a Video</a></span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<div class="site-footer">
+    <div class="container">
+        <div class="site-footer-nav row">
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h4><span>About GoAnimate</span></h4>
+                    <ul class="list-unstyled">
+                        <li><a href="http://web.archive.org/web/20150123050707/http://goanimate.com/about">Who we are</a></li>
+                        <li><a href="http://web.archive.org/web/20150123050707/http://goanimate.com/contactus">Contact Us</a></li>
+                        <li><a href="http://web.archive.org/web/20150123050707/http://goanimate.com/video-maker-tips">Blog</a></li>
+                        <li><a href="http://web.archive.org/web/20150123050707/http://press.goanimate.com/">Press</a></li>
+                        <li><a href="http://web.archive.org/web/20150123050707/http://goanimate.com/videos/mostwatched">Browse all videos</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h4><span>GoAnimate Solutions</span></h4>
+                    <ul class="list-unstyled">
+                        <li><a href="http://web.archive.org/web/20150123050707/http://goanimate.com/business/videoplans?hook=footer_button.site">Plans and Pricing</a></li>
+                        <li><a href="http://web.archive.org/web/20150123050707/http://goanimate.com/business/videoplans/federal?hook=footer_button.site">Plans for Federal Agencies</a></li>
+                        <li><a href="http://web.archive.org/web/20150123050707/http://goanimate4schools.com/" target="_blank">GoAnimate for Schools</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h4><span>Usage Guidelines</span></h4>
+                    <ul class="list-unstyled">
+                        <li><a href="http://web.archive.org/web/20150123050707/http://goanimate.com/termsofuse">Terms of Service</a></li>
+                        <li><a href="http://web.archive.org/web/20150123050707/http://goanimate.com/legal">About Licensed Themes</a></li>
+                        <li><a href="http://web.archive.org/web/20150123050707/http://goanimate.com/privacy">Privacy Policy</a></li>
+                        <li><a href="//web.archive.org/web/20150123050707/http://support.goanimate.com/hc/en-us/articles/202408574" target="_blank">Cancellation Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h4>Getting Help</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="http://web.archive.org/web/20150123050707/http://goanimate.com/video-maker-tips">Video Maker Tips</a></li>
+                        <li><a href="http://web.archive.org/web/20150123050707/http://support.goanimate.com/">Help Center</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="site-footer-socials-container">
+                    Follow us on:
+                    <ul class="site-footer-socials">
+                        <li><a class="glyph-social glyph-facebook" href="http://web.archive.org/web/20150123050707/http://www.facebook.com/GoAnimateInc"><span class="sr-only">Facebook</span></a></li>
+                        <li><a class="glyph-social glyph-twitter" href="http://web.archive.org/web/20150123050707/http://twitter.com/GoAnimate"><span class="sr-only">Twitter</span></a></li>
+                        <li><a class="glyph-social glyph-linked-in" href="http://web.archive.org/web/20150123050707/http://www.linkedin.com/company/goanimate"><span class="sr-only">LinkedIn</span></a></li>
+                        <li><a class="glyph-social glyph-google-plus" href="http://web.archive.org/web/20150123050707/https://plus.google.com/+goanimate"><span class="sr-only">Google+</span></a></li>
+                        <li><a class="glyph-social glyph-youtube" href="http://web.archive.org/web/20150123050707/http://www.youtube.com/user/GoAnimate"><span class="sr-only">YouTube</span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="site-footer-copyright">
+                    <img src="http://web.archive.org/web/20150123050707im_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/img/footer/logo_norton.png" alt="Norton Secured">
+                    <img src="http://web.archive.org/web/20150123050707im_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/img/footer/logo_amazon.png" alt="AWS Partner Network">
+                    &nbsp;&nbsp;&nbsp;
+                    <div class="ga-copy">GoAnimate © 2015</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="studio_container" style="display: none;">
+    <div id="studio_holder"><!-- Full Screen Studio -->
+        <div style="top: 50%; position: relative;">
+            You can't use GoAnimate because Flash might be disabled. <a href="http://web.archive.org/web/20190121200822/https://get.adobe.com/flashplayer/">Enable Flash</a>.
+        </div>
+    </div>
+</div>
+
+
+
+<link rel="stylesheet" type="text/css" href="http://web.archive.org/web/20190121200822cs_/chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/css/content.css"><div style="text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;cursor: pointer;line-height: 0;display:block !important;"></div><loom-container id="lo-engage-ext-container"><loom-shadow data-reactroot="" classname="resolved"></loom-shadow></loom-container><div style="text-align: right;position: fixed;z-index:9999999;bottom: 0; width: 100%;cursor: pointer;line-height: 0;display:block !important;"></div>
+<!--
+playback timings (ms):
+  captures_list: 291.355
+  exclusion.robots: 0.314
+  exclusion.robots.policy: 0.301
+  RedisCDXSource: 6.063
+  esindex: 0.012
+  LoadShardBlock: 259.009 (3)
+  PetaboxLoader3.datanode: 356.976 (4)
+  CDXLines.iter: 21.359 (3)
+  load_resource: 812.478
+  PetaboxLoader3.resolve: 481.454
+--><div id="wm-ipp-print">The Wayback Machine - http://web.archive.org/web/20150123050707/http://goanimate.com/videos/09kLfDswzMA4</div>
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="https://archive.org/includes/donate.php?as_page=1&amp;platform=wb&amp;referer=http%3A//web.archive.org/web/20150123050707/http%3A//goanimate.com/videos/09kLfDswzMA4" scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><script type="text/javascript">
+__wm.bt(650,27,25,2,"web","http://goanimate.com/videos/09kLfDswzMA4","20150123050707",1996,"/_static/",["/_static/css/banner-styles.css?v=omkqRugM","/_static/css/iconochive.css?v=qtvMKcIJ"], false);
+  __wm.rw(1);
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+<script type="text/javascript">
+if (self !== top) {
+            jQuery('body').hide();
+    }
+</script>
+<div id="fb-root" class=" fb_reset"><script async="" src="http://web.archive.org/web/20150123050707/http://connect.facebook.net/en_US/all.js"></script><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="http://web.archive.org/web/20150123050707if_/http://static.ak.facebook.com/connect/xd_arbiter/7r8gQb8MIqE.js?version=41#channel=f2a96289843fc5a&amp;origin=http%3A%2F%2Fgoanimate.com" style="border: none;" allow="autoplay 'self'; fullscreen 'self'"></iframe><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="http://web.archive.org/web/20150123050707if_/https://s-static.ak.facebook.com/connect/xd_arbiter/7r8gQb8MIqE.js?version=41#channel=f2a96289843fc5a&amp;origin=http%3A%2F%2Fgoanimate.com" style="border: none;" allow="autoplay 'self'; fullscreen 'self'"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="f3a3eb7ded9951a" frameborder="0" allowtransparency="true" scrolling="no" src="http://web.archive.org/web/20150123050707if_/https://www.facebook.com/connect/ping?client_id=177116303202&amp;domain=goanimate.com&amp;origin=1&amp;redirect_uri=http%3A%2F%2Fstatic.ak.facebook.com%2Fconnect%2Fxd_arbiter%2F7r8gQb8MIqE.js%3Fversion%3D41%23cb%3Df2b1b760fdf696c%26domain%3Dgoanimate.com%26origin%3Dhttp%253A%252F%252Fgoanimate.com%252Ff2a96289843fc5a%26relation%3Dparent&amp;response_type=token%2Csigned_request%2Ccode&amp;sdk=joey" style="display: none;" allow="autoplay 'self'; fullscreen 'self'"></iframe></div></div></div>
+<script type="text/javascript">
+  window.fbAsyncInit = function() {
+    FB.init({appId: '177116303202', cookie: true, status: true, xfbml: true});
+    jQuery(document).ready(function() {
+      jQuery(document).trigger('facebook.init');
+    });
+  };
+  (function() {
+    var e = document.createElement('script'); e.async = true;
+    e.src = document.location.protocol +
+      '//web.archive.org/web/20150123050707/http://connect.facebook.net/en_US/all.js';
+    document.getElementById('fb-root').appendChild(e);
+  }());
+</script>
+
+<script type="text/javascript">
+        jQuery.extend(CCStandaloneBannerAdUI, {"actionshopSWF":"http:\/\/web.archive.org\/web\/20150123050707\/http:\/\/lightspeed.goanimate.com\/animation\/64417212cce1d276\/actionshop.swf","apiserver":"http:\/\/web.archive.org\/web\/20150123050707\/http:\/\/goanimate.com\/","clientThemePath":"http:\/\/web.archive.org\/web\/20150123050707\/http:\/\/lightspeed.goanimate.com\/static\/1ac3b7059cc0ab39\/<client_theme>","userId":""});
+</script>
+
+<div class="page-container">
+
+
+
+
+<!-- END OF HEADER -->
+<div id="video-page">
+<div class="video-top">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 video-left">
+                <div class="status-container">
+                    <div class="vthumb-container">
+                        <div class="vthumb">
+                            <div class="vthumb-clip"><div class="vthumb-clip-inner"><span class="valign"></span><img src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/movie/1963/7876963/22562233.jpg" alt="Caillou sets Gilbert off Free/ Ungrounded"></div></div>
+                        </div>
+                    </div>
+                    <div class="status public">
+                        <span class="draft-text">Draft</span>
+                        <span class="unlisted-text">Unlisted</span>
+                        <span class="private-text">Private</span>
+                        <span class="public-text">Public</span>
+                    </div>
+                </div>
+                <div class="video-top-content clearfix">
+                    <div class="pull-left video-info">
+                        <h1>Your Video</h1>
+                        By <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0uWOI2JiCdHU" title="African Vulture™">ReecceAnimate2010</a> 
+
+                            </div>
+                    <div class="video-top-status">
+                            </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <ul class="video-top-nav">
+                        
+                        </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="video-main">
+<div class="container">
+        <div class="video-main-content">
+            <div class="video-header clearfix noshow">
+            </div>
+
+            <div class="video-content">
+                <div class="player-container">
+<meta name="medium" content="video">
+<div style="position:relative">
+    <div id="playerdiv" align="center" style="width:620px;height:349px;"><object data="http://web.archive.org/web/20150123050707/http://lightspeed.goanimate.com/animation/64417212cce1d276/player.swf" type="application/x-shockwave-flash" id="Player" width="620" height="349"><param name="bgcolor" value="#000000"><param name="scale" value="exactfit"><param name="allowScriptAccess" value="always"><param name="allowFullScreen" value="true"><param name="wmode" value="opaque"><param name="flashvars" value="movieOwner=African%20Vulture%E2%84%A2&amp;movieOwnerId=0uWOI2JiCdHU&amp;movieId=09kLfDswzMA4&amp;movieLid=13&amp;movieTitle=Caillou%2Bsets%2BGilbert%2Boff%2BFree%252F%2BUngrounded&amp;movieDesc=Caillou%2Bget%2Bungrounded%2Bfor%2Bthe%2Bvery%2Bfirst%2Btime%2Bbut%2Bhe%2527s%2Bnot%2Btoo%2Bhappy%2Babout%2Bthat.&amp;userId=&amp;username=&amp;uemail=&amp;ut=-1&amp;numContact=&amp;apiserver=http%3A%2F%2Fweb.archive.org%2Fweb%2F20150123050707%2Fhttp%3A%2F%2Fgoanimate.com%2F&amp;duration=97&amp;playcount=1&amp;thumbnailURL=http%3A%2F%2Fweb.archive.org%2Fweb%2F20150123050707%2Fhttp%3A%2F%2Fs3.amazonaws.com%2Ffs.goanimate.com%2Ffiles%2Fthumbnails%2Fmovie%2F1963%2F7876963%2F22562233L.jpg&amp;copyable=0&amp;isPublished=1&amp;ctc=go&amp;tlang=en_US&amp;is_private_shared=0&amp;autostart=0&amp;appCode=go&amp;is_slideshow=0&amp;originalId=0zEt_fo4L-5k&amp;is_emessage=0&amp;storePath=http%3A%2F%2Fweb.archive.org%2Fweb%2F20150123050707%2Fhttp%3A%2F%2Flightspeed.goanimate.com%2Fstore%2F1a94fb3d245d1062%2F%3Cstore%3E&amp;clientThemePath=http%3A%2F%2Fweb.archive.org%2Fweb%2F20150123050707%2Fhttp%3A%2F%2Flightspeed.goanimate.com%2Fstatic%2F1ac3b7059cc0ab39%2F%3Cclient_theme%3E&amp;animationPath=http%3A%2F%2Fweb.archive.org%2Fweb%2F20150123050707%2Fhttp%3A%2F%2Flightspeed.goanimate.com%2Fanimation%2F64417212cce1d276%2F&amp;isEmbed=0&amp;&amp;&amp;&amp;isTemplate=0&amp;showButtons=1&amp;chain_mids=&amp;averageRating=5&amp;ratingCount=42&amp;fb_app_url=http%3A%2F%2Fweb.archive.org%2Fweb%2F20150123050707%2Fhttp%3A%2F%2Fgoanimate.com%2F&amp;ad=1&amp;endStyle=0&amp;isWide=1&amp;pwm=0&amp;s3base=http%3A%2F%2Fweb.archive.org%2Fweb%2F20150123050707%2Fhttp%3A%2F%2Fs3.amazonaws.com%2Ffs.goanimate.com%2F&amp;initcb=playerLoaded&amp;showshare=false"><param name="movie" value="http://web.archive.org/web/20150123050707/http://lightspeed.goanimate.com/animation/64417212cce1d276/player.swf"></object></div>
+</div>
+<script type="text/javascript">
+var playerApiReady = false;
+function playerLoaded() {
+    playerApiReady = true;
+    jQuery(document).trigger('playerApiReady');
+};
+jQuery('#playerdiv').flash({
+    id: "Player",
+    swf: "http://web.archive.org/web/20150123050707/http://lightspeed.goanimate.com/animation/64417212cce1d276/player.swf",
+    height: 349,
+    width: 620,
+    bgcolor: "#000000",
+    scale: "exactfit",
+    allowScriptAccess: "always",
+    allowFullScreen: "true",
+    wmode: "opaque",
+
+    hasVersion: "10.3",
+
+    flashvars: {"movieOwner":"African Vulture\u2122","movieOwnerId":"0uWOI2JiCdHU","movieId":"09kLfDswzMA4","movieLid":"13","movieTitle":"Caillou+sets+Gilbert+off+Free%2F+Ungrounded","movieDesc":"Caillou+get+ungrounded+for+the+very+first+time+but+he%27s+not+too+happy+about+that.","userId":"","username":"","uemail":"","ut":"-1","numContact":"","apiserver":"http:\/\/web.archive.org\/web\/20150123050707\/http:\/\/goanimate.com\/","duration":"97","playcount":1,"thumbnailURL":"http:\/\/web.archive.org\/web\/20150123050707\/http:\/\/s3.amazonaws.com\/fs.goanimate.com\/files\/thumbnails\/movie\/1963\/7876963\/22562233L.jpg","copyable":"0","isPublished":"1","ctc":"go","tlang":"en_US","is_private_shared":"0","autostart":"0","appCode":"go","is_slideshow":"0","originalId":"0zEt_fo4L-5k","is_emessage":"0","storePath":"http:\/\/web.archive.org\/web\/20150123050707\/http:\/\/lightspeed.goanimate.com\/store\/1a94fb3d245d1062\/<store>","clientThemePath":"http:\/\/web.archive.org\/web\/20150123050707\/http:\/\/lightspeed.goanimate.com\/static\/1ac3b7059cc0ab39\/<client_theme>","animationPath":"http:\/\/web.archive.org\/web\/20150123050707\/http:\/\/lightspeed.goanimate.com\/animation\/64417212cce1d276\/","isEmbed":"0","refuser":null,"utm_source":null,"uid":null,"isTemplate":"0","showButtons":"1","chain_mids":"","averageRating":5,"ratingCount":"42","fb_app_url":"http:\/\/web.archive.org\/web\/20150123050707\/http:\/\/goanimate.com\/","ad":1,"endStyle":0,"isWide":"1","pwm":0,"s3base":"http:\/\/web.archive.org\/web\/20150123050707\/http:\/\/s3.amazonaws.com\/fs.goanimate.com\/","initcb":"playerLoaded","showshare":false}});
+</script>                </div>
+            </div>
+            <div class="video-actions">
+                <span class="divider">|</span>
+                <button class="btn btn-link" data-remote="/ajax/getMovieShare/09kLfDswzMA4" data-action="video-share"><span class="glyph-pro glyph-share-alt"></span> &nbsp; Share</button>
+
+                <span class="divider">|</span>
+            </div>
+<script>
+$('.video-actions').toggle($('.video-actions').find('.btn').length > 0);
+</script>
+
+
+            
+        </div>
+        <div class="video-main-aside" id="player-aside"></div>
+
+</div>
+</div>
+<div class="container main-container">
+    <div class="row">
+        <div class="col-md-8">
+            <ul class="nav nav-tabs">
+                <li class="active"><a href="#video-comments" data-toggle="tab" aria-expanded="true">Comments (<span class="num-commented">25</span>)</a></li>
+                <li></li>
+                <li class=""><a href="#video-info" data-toggle="tab" aria-expanded="false">More Info</a></li>
+            </ul>
+
+            <div class="tab-content">
+                <div class="tab-pane" id="video-info">
+                    <p class="inside">Published on: 16 July 2021</p>
+                    <p>Its Yout viedo student or super teacher?</p>
+                </div>
+                <div class="tab-pane active" id="video-comments">
+
+                    <div class="comments" id="all-comments">
+
+    <div class="comment" id="comment-33750127">
+        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0h-Ik0X1mT_I"><img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/253/9186253/256477450.jpg" alt=""></a>
+        <div class="comment-content">
+            <div class="meta">
+                <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0h-Ik0X1mT_I">Pixar99SwellRulesVGCP</a>                 <span class="time">2015-01-20 22:04:45</span>
+            </div>
+            <div class="comment-text">
+                <p>Do a sequel where he brings Gilbert back and gets grounded.</p>
+            </div>
+            <div class="comment-actions">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="comment" id="comment-33740944">
+        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0cmCJzfndrEI"><img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/img/profile_pic/default1.jpg" alt=""></a>
+        <div class="comment-content">
+            <div class="meta">
+                <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0cmCJzfndrEI">Barneyhater2000</a> <span class="label label-biz">Business</span>
+                <span class="time">2015-01-20 16:52:45</span>
+            </div>
+            <div class="comment-text">
+                <p>What happened to caillou misbehaves at chuck e cheese's</p>
+            </div>
+            <div class="comment-actions">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="comment" id="comment-33713041">
+        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0SS_wThYylk0"><img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/1255/7009255/256245764.jpg" alt=""></a>
+        <div class="comment-content">
+            <div class="meta">
+                <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0SS_wThYylk0">JigglyTheValentine</a>                 <span class="time">2015-01-19 14:25:01</span>
+            </div>
+            <div class="comment-text">
+                <p>??? &nbsp;&nbsp;Business?</p>
+            </div>
+            <div class="comment-actions">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="comment" id="comment-33700796">
+        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0aBfrMUZdiR4"><img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/974/8685974/255744874.jpg" alt=""></a>
+        <div class="comment-content">
+            <div class="meta">
+                <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0aBfrMUZdiR4">CloudySkies17695</a> <span class="label label-plus">GoPlus</span>
+                <span class="time">2015-01-19 02:00:54</span>
+            </div>
+            <div class="comment-text">
+                <p>@MicroKoop4217 Although Comedy World is a popular choice for videos, I once remember reading that African Vulture likes to mix to up on occasion.</p>
+            </div>
+            <div class="comment-actions">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="comment" id="comment-33698562">
+        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0XhJ0yej7daA"><img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/1910/8140910/255118609.jpg" alt=""></a>
+        <div class="comment-content">
+            <div class="meta">
+                <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0XhJ0yej7daA">MicroKoopa4217</a> <span class="label label-plus">GoPlus</span>
+                <span class="time">2015-01-18 22:57:50</span>
+            </div>
+            <div class="comment-text">
+                <p>Why did you make it a business video instead of a Comedy world video?</p>
+            </div>
+            <div class="comment-actions">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="comment" id="comment-33688292">
+        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0mxRJIzRbx1k"><img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/181/8982181/256139810.jpg" alt=""></a>
+        <div class="comment-content">
+            <div class="meta">
+                <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0mxRJIzRbx1k">AAAComedian2005</a> <span class="label label-plus">GoPlus</span>
+                <span class="time">2015-01-18 19:20:19</span>
+            </div>
+            <div class="comment-text">
+                <p>Caillou's dad: Caillou, thanks for setting Gilbert off free! You are ungrounded! You can do whatever you want!</p>
+            </div>
+            <div class="comment-actions">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="comment" id="comment-33678855">
+        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0Bkb4YKCN-7Y"><img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/2090/6149090/255839938.jpg" alt=""></a>
+        <div class="comment-content">
+            <div class="meta">
+                <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0Bkb4YKCN-7Y">BrandonTheMusicLover</a> <span class="label label-plus">GoPlus</span>
+                <span class="time">2015-01-18 12:38:45</span>
+            </div>
+            <div class="comment-text">
+                <p>Priceless Reaction from Caillou!</p>
+            </div>
+            <div class="comment-actions">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="comment" id="comment-33670674">
+        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/02lK_7NLjxBw"><img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/660/7905660/255943954.jpg" alt=""></a>
+        <div class="comment-content">
+            <div class="meta">
+                <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/02lK_7NLjxBw">PBSKids Stinks</a> <span class="label label-plus">GoPlus</span>
+                <span class="time">2015-01-17 22:13:56</span>
+            </div>
+            <div class="comment-text">
+                <p>Date: February 6</p>
+            </div>
+            <div class="comment-actions">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="comment" id="comment-33670613">
+        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/02lK_7NLjxBw"><img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/660/7905660/255943954.jpg" alt=""></a>
+        <div class="comment-content">
+            <div class="meta">
+                <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/02lK_7NLjxBw">PBSKids Stinks</a> <span class="label label-plus">GoPlus</span>
+                <span class="time">2015-01-17 22:02:02</span>
+            </div>
+            <div class="comment-text">
+                <p>Request: Caillou Ditches A Hockey Game<br>
+Plot: Rosie wants to go to an NHL game, which Caillou's parents say yes. But Caillou doesn't like hockey. He thinks it's "boring". But he is forced to go anyways, so 10 minutes after the 1st period starts, Caillou lies to his parents about going to the bathroom and instead going to Chuck E Cheese's, where three of his friends, Leo, Sarah, and Clementine are there. Meanwhile, his parents get suspicious, which his Dad finds out he went to Chuck E Cheese's instead of watching the hockey game. Then, Caillou is forced to watch the rest of the game. After the game, he gets grounded.</p>
+            </div>
+            <div class="comment-actions">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="comment" id="comment-33670443">
+        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0vdtq_tlWIHs"><img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/346/6975346/237848308.jpg" alt=""></a>
+        <div class="comment-content">
+            <div class="meta">
+                <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0vdtq_tlWIHs">Bubble Fan 100</a> <span class="label label-plus">GoPlus</span>
+                <span class="time">2015-01-17 21:42:31</span>
+            </div>
+            <div class="comment-text">
+                <p>I don't like Calliou, I only like this video because of his reaction.</p>
+            </div>
+            <div class="comment-actions">
+            </div>
+        </div>
+    </div>
+
+<div class="go-pagination" data-target="#all-comments" data-end-point="/ajax/getComments/movie/09kLfDswzMA4/10/">
+    <ul>
+        <li class="disabled"><a href="#" data-page="1">&lt;&lt;</a></li>
+        <li class="disabled"><a href="#" data-page="1">&lt;</a></li>
+        <li>
+            <form class="go-pagination-form" data-max-page="3">
+                Page <input class="form-control" type="text" name="page" value="1"> of <span class="go-pagination-max">3</span>
+            </form>
+        </li>
+        <li class=""><a href="#" data-page="2">&gt;</a></li>
+        <li class=""><a href="#" data-page="3">&gt;&gt;</a></li>
+    </ul>
+</div>
+
+                    </div>
+
+                </div>
+
+                <div class="tab-pane" id="video-favorites">
+
+<div class="table-responsive">
+    <table class="table table-hover favorited-user-table">
+        <thead>
+            <tr>
+                <td class="td-thumbnail"></td>
+                <td class="td-name">Display Name</td>
+                <td class="td-count">Followers</td>
+                <td class="td-date">Favorited on</td>
+                <td class="td-tools"></td>
+            </tr>
+        </thead>
+                    <tbody>
+                            <tr>
+                    <td class="td-thumbnail">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0xdU1AcUXgQQ">
+                            <img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/img/profile_pic/default1.jpg" alt="isabel.martinez2156">
+                        </a>
+                    </td>
+
+                    <td class="td-name">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0xdU1AcUXgQQ">isabel.martinez2156</a>
+                        <div>
+                                                    </div>
+                    </td>
+
+                    <td class="td-count">
+                        1 follower                    </td>
+
+                    <td class="td-date">
+                        <span title="2015-01-22 17:52:16">22 Jan 2015</span>
+                    </td>
+
+                    <td class="td-tools">
+                                            </td>
+                </tr>
+                            <tr>
+                    <td class="td-thumbnail">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0_r1GohkmTfs">
+                            <img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/2215/7769215/218829512.jpg" alt="The Paul Black Show">
+                        </a>
+                    </td>
+
+                    <td class="td-name">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0_r1GohkmTfs">The Paul Black Show</a>
+                        <div>
+                            <span class="label label-plus">GoPlus</span>
+                        </div>
+                    </td>
+
+                    <td class="td-count">
+                        4 followers                    </td>
+
+                    <td class="td-date">
+                        <span title="2015-01-21 16:50:14">21 Jan 2015</span>
+                    </td>
+
+                    <td class="td-tools">
+                                            </td>
+                </tr>
+                            <tr>
+                    <td class="td-thumbnail">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0V_KQtYLA_wc">
+                            <img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/2759/7247759/247570760.jpg" alt="The GoAnimate Channel">
+                        </a>
+                    </td>
+
+                    <td class="td-name">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0V_KQtYLA_wc">The GoAnimate Channel</a>
+                        <div>
+                            <span class="label label-plus">GoPlus</span>
+                        </div>
+                    </td>
+
+                    <td class="td-count">
+                        611 followers                    </td>
+
+                    <td class="td-date">
+                        <span title="2015-01-21 14:32:00">21 Jan 2015</span>
+                    </td>
+
+                    <td class="td-tools">
+                                            </td>
+                </tr>
+                            <tr>
+                    <td class="td-thumbnail">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0YkjnEDhjqZ4">
+                            <img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/2467/1391467/245353394.jpg" alt="hiddenmario">
+                        </a>
+                    </td>
+
+                    <td class="td-name">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0YkjnEDhjqZ4">hiddenmario</a>
+                        <div>
+                                                    </div>
+                    </td>
+
+                    <td class="td-count">
+                        246 followers                    </td>
+
+                    <td class="td-date">
+                        <span title="2015-01-20 17:12:23">20 Jan 2015</span>
+                    </td>
+
+                    <td class="td-tools">
+                                            </td>
+                </tr>
+                            <tr>
+                    <td class="td-thumbnail">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0h7F4slRbYds">
+                            <img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/841/8883841/256147250.jpg" alt="WildShakeYes VGCP">
+                        </a>
+                    </td>
+
+                    <td class="td-name">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0h7F4slRbYds">WildShakeYes VGCP</a>
+                        <div>
+                                                    </div>
+                    </td>
+
+                    <td class="td-count">
+                        142 followers                    </td>
+
+                    <td class="td-date">
+                        <span title="2015-01-20 15:04:59">20 Jan 2015</span>
+                    </td>
+
+                    <td class="td-tools">
+                                            </td>
+                </tr>
+                            <tr>
+                    <td class="td-thumbnail">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0pyD6eNJrFy4">
+                            <img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/708/6537708/255145531.jpg" alt="EarthSamYesAlvinNo">
+                        </a>
+                    </td>
+
+                    <td class="td-name">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0pyD6eNJrFy4">EarthSamYesAlvinNo</a>
+                        <div>
+                                                    </div>
+                    </td>
+
+                    <td class="td-count">
+                        610 followers                    </td>
+
+                    <td class="td-date">
+                        <span title="2015-01-20 14:42:58">20 Jan 2015</span>
+                    </td>
+
+                    <td class="td-tools">
+                                            </td>
+                </tr>
+                            <tr>
+                    <td class="td-thumbnail">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0Se_B-pLw8mI">
+                            <img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/img/profile_pic/default3.jpg" alt="alsmith96">
+                        </a>
+                    </td>
+
+                    <td class="td-name">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0Se_B-pLw8mI">alsmith96</a>
+                        <div>
+                                                    </div>
+                    </td>
+
+                    <td class="td-count">
+                        2 followers                    </td>
+
+                    <td class="td-date">
+                        <span title="2015-01-20 12:59:10">20 Jan 2015</span>
+                    </td>
+
+                    <td class="td-tools">
+                                            </td>
+                </tr>
+                            <tr>
+                    <td class="td-thumbnail">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0BXNJTc6SNjQ">
+                            <img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/163/9342163/255707055.jpg" alt="Sadie Smith Is Back">
+                        </a>
+                    </td>
+
+                    <td class="td-name">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0BXNJTc6SNjQ">Sadie Smith Is Back</a>
+                        <div>
+                                                    </div>
+                    </td>
+
+                    <td class="td-count">
+                        100 followers                    </td>
+
+                    <td class="td-date">
+                        <span title="2015-01-19 19:09:02">19 Jan 2015</span>
+                    </td>
+
+                    <td class="td-tools">
+                                            </td>
+                </tr>
+                            <tr>
+                    <td class="td-thumbnail">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0l0bFqmuXt0U">
+                            <img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/2244/8582244/254173251.jpg" alt="DemiLovatoIsCOOL">
+                        </a>
+                    </td>
+
+                    <td class="td-name">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0l0bFqmuXt0U">DemiLovatoIsCOOL</a>
+                        <div>
+                            <span class="label label-plus">GoPlus</span>
+                        </div>
+                    </td>
+
+                    <td class="td-count">
+                        711 followers                    </td>
+
+                    <td class="td-date">
+                        <span title="2015-01-19 13:08:59">19 Jan 2015</span>
+                    </td>
+
+                    <td class="td-tools">
+                                            </td>
+                </tr>
+                            <tr>
+                    <td class="td-thumbnail">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0Ce2wpz8nDgI">
+                            <img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/2409/9353409/256063894.jpg" alt="PetRescueComedianforever">
+                        </a>
+                    </td>
+
+                    <td class="td-name">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0Ce2wpz8nDgI">PetRescueComedianforever</a>
+                        <div>
+                                                    </div>
+                    </td>
+
+                    <td class="td-count">
+                        5 followers                    </td>
+
+                    <td class="td-date">
+                        <span title="2015-01-19 08:23:52">19 Jan 2015</span>
+                    </td>
+
+                    <td class="td-tools">
+                                            </td>
+                </tr>
+                            <tr>
+                    <td class="td-thumbnail">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/028Qzbz2sSqc">
+                            <img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/2471/7961471/250262616.jpg" alt="EmmetsFan3000 VGCP">
+                        </a>
+                    </td>
+
+                    <td class="td-name">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/028Qzbz2sSqc">EmmetsFan3000 VGCP</a>
+                        <div>
+                            <span class="label label-plus">GoPlus</span>
+                        </div>
+                    </td>
+
+                    <td class="td-count">
+                        143 followers                    </td>
+
+                    <td class="td-date">
+                        <span title="2015-01-18 14:40:13">18 Jan 2015</span>
+                    </td>
+
+                    <td class="td-tools">
+                                            </td>
+                </tr>
+                            <tr>
+                    <td class="td-thumbnail">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0Bkb4YKCN-7Y">
+                            <img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/2090/6149090/255839938.jpg" alt="BrandonTheMusicLover">
+                        </a>
+                    </td>
+
+                    <td class="td-name">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0Bkb4YKCN-7Y">BrandonTheMusicLover</a>
+                        <div>
+                            <span class="label label-plus">GoPlus</span>
+                        </div>
+                    </td>
+
+                    <td class="td-count">
+                        590 followers                    </td>
+
+                    <td class="td-date">
+                        <span title="2015-01-18 12:38:00">18 Jan 2015</span>
+                    </td>
+
+                    <td class="td-tools">
+                                            </td>
+                </tr>
+                            <tr>
+                    <td class="td-thumbnail">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/05nH8_YgexFA">
+                            <img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/img/profile_pic/default2.jpg" alt="1960cupcake">
+                        </a>
+                    </td>
+
+                    <td class="td-name">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/05nH8_YgexFA">1960cupcake</a>
+                        <div>
+                            <span class="label label-biz">Business</span>
+                        </div>
+                    </td>
+
+                    <td class="td-count">
+                        64 followers                    </td>
+
+                    <td class="td-date">
+                        <span title="2015-01-18 11:33:53">18 Jan 2015</span>
+                    </td>
+
+                    <td class="td-tools">
+                                            </td>
+                </tr>
+                            <tr>
+                    <td class="td-thumbnail">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/069KNO-siI-A">
+                            <img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/375/6990375/255628178.jpg" alt="Goanimate girl 06">
+                        </a>
+                    </td>
+
+                    <td class="td-name">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/069KNO-siI-A">Goanimate girl 06</a>
+                        <div>
+                            <span class="label label-plus">GoPlus</span>
+                        </div>
+                    </td>
+
+                    <td class="td-count">
+                        64 followers                    </td>
+
+                    <td class="td-date">
+                        <span title="2015-01-18 09:23:06">18 Jan 2015</span>
+                    </td>
+
+                    <td class="td-tools">
+                                            </td>
+                </tr>
+                            <tr>
+                    <td class="td-thumbnail">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/02lK_7NLjxBw">
+                            <img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/660/7905660/255943954.jpg" alt="PBSKids Stinks">
+                        </a>
+                    </td>
+
+                    <td class="td-name">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/02lK_7NLjxBw">PBSKids Stinks</a>
+                        <div>
+                            <span class="label label-plus">GoPlus</span>
+                        </div>
+                    </td>
+
+                    <td class="td-count">
+                        306 followers                    </td>
+
+                    <td class="td-date">
+                        <span title="2015-01-17 22:23:58">17 Jan 2015</span>
+                    </td>
+
+                    <td class="td-tools">
+                                            </td>
+                </tr>
+                            <tr>
+                    <td class="td-thumbnail">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0vdtq_tlWIHs">
+                            <img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/346/6975346/237848308.jpg" alt="Bubble Fan 100">
+                        </a>
+                    </td>
+
+                    <td class="td-name">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0vdtq_tlWIHs">Bubble Fan 100</a>
+                        <div>
+                            <span class="label label-plus">GoPlus</span>
+                        </div>
+                    </td>
+
+                    <td class="td-count">
+                        206 followers                    </td>
+
+                    <td class="td-date">
+                        <span title="2015-01-17 21:42:34">17 Jan 2015</span>
+                    </td>
+
+                    <td class="td-tools">
+                                            </td>
+                </tr>
+                            <tr>
+                    <td class="td-thumbnail">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0k4UEakGFTSQ">
+                            <img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/348/8601348/256471308.jpg" alt="dylansmith1998">
+                        </a>
+                    </td>
+
+                    <td class="td-name">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0k4UEakGFTSQ">dylansmith1998</a>
+                        <div>
+                                                    </div>
+                    </td>
+
+                    <td class="td-count">
+                        14 followers                    </td>
+
+                    <td class="td-date">
+                        <span title="2015-01-17 21:28:46">17 Jan 2015</span>
+                    </td>
+
+                    <td class="td-tools">
+                                            </td>
+                </tr>
+                            <tr>
+                    <td class="td-thumbnail">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0sTpxrnalZok">
+                            <img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/2737/9347737/255931080.jpg" alt="VickyHater190Returns">
+                        </a>
+                    </td>
+
+                    <td class="td-name">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0sTpxrnalZok">VickyHater190Returns</a>
+                        <div>
+                                                    </div>
+                    </td>
+
+                    <td class="td-count">
+                        42 followers                    </td>
+
+                    <td class="td-date">
+                        <span title="2015-01-17 20:59:49">17 Jan 2015</span>
+                    </td>
+
+                    <td class="td-tools">
+                                            </td>
+                </tr>
+                            <tr>
+                    <td class="td-thumbnail">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0vkTwKWXImOY">
+                            <img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/219/8454219/248179524.jpg" alt="TMNTYesShredderNo">
+                        </a>
+                    </td>
+
+                    <td class="td-name">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0vkTwKWXImOY">TMNTYesShredderNo</a>
+                        <div>
+                            <span class="label label-plus">GoPlus</span>
+                        </div>
+                    </td>
+
+                    <td class="td-count">
+                        71 followers                    </td>
+
+                    <td class="td-date">
+                        <span title="2015-01-17 19:39:27">17 Jan 2015</span>
+                    </td>
+
+                    <td class="td-tools">
+                                            </td>
+                </tr>
+                            <tr>
+                    <td class="td-thumbnail">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0ptvK11rXtwA">
+                            <img class="portrait portrait-small img-circle" src="http://web.archive.org/web/20150123050707im_/http://s3.amazonaws.com/fs.goanimate.com/files/thumbnails/asset/1167/6835167/254115364.jpg" alt="jbstudentforever">
+                        </a>
+                    </td>
+
+                    <td class="td-name">
+                        <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/user/0ptvK11rXtwA">jbstudentforever</a>
+                        <div>
+                                                    </div>
+                    </td>
+
+                    <td class="td-count">
+                        934 followers                    </td>
+
+                    <td class="td-date">
+                        <span title="2015-01-17 17:50:32">17 Jan 2015</span>
+                    </td>
+
+                    <td class="td-tools">
+                                            </td>
+                </tr>
+                        </tbody>
+            </table>
+</div>
+
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+</div>
+
+<!-- modals -->
+
+
+<script>
+// Twitter
+!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//web.archive.org/web/20150123050707/http://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+
+// Google Plus
+(function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'http://web.archive.org/web/20150123050707/https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+
+// Pinterest
+(function(d){
+  var f = d.getElementsByTagName('SCRIPT')[0], p = d.createElement('SCRIPT');
+  p.type = 'text/javascript';
+  p.async = true;
+  p.src = '//web.archive.org/web/20150123050707/http://assets.pinterest.com/js/pinit.js';
+  f.parentNode.insertBefore(p, f);
+}(document));
+
+// constants defined for movie title prefix editing
+var MOVIE_TITLE_PREFIX = '';
+var MOVIE_TITLE = 'Caillou sets Gilbert off Free/ Ungrounded';
+var MOVIE_USERNAME = 'African Vulture™';
+
+var USER_USERNAME = '';var MOVIE_COLLAB_LOCK = false;</script>
+
+<script src="http://web.archive.org/web/20150123050707js_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/js/users.js"></script>
+<script src="http://web.archive.org/web/20150123050707js_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/js/video.js"></script>
+<script src="http://web.archive.org/web/20150123050707js_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/js/videos.js"></script>
+
+
+
+
+
+
+
+<div id="trial-unlock-overlay" class="modal" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 class="modal-title">Subscribe to unlock more features</h3>
+            </div>
+
+            <div class="modal-body text-center">
+                <div class="trial-upsell trial-upsell-unlock">
+                    <h2><img src="http://web.archive.org/web/20150123050707im_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/img/trial/lock.png" alt=""> Unlock these features now</h2>
+
+                    <p class="text-feature">
+                        Remove the full screen watermark<br>
+                        Download up to 1080P (Full HD)<br>
+                        One-click publish                    </p>
+
+                    <div class="text-muted">
+                        <div>Publish to <img class="logo" src="http://web.archive.org/web/20150123050707im_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/img/trial/logo_ga.png" alt=""> or export to</div>
+                        <div>
+                            <img class="logo-partner" src="http://web.archive.org/web/20150123050707im_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/img/trial/logo_youtube20.png" alt="">
+                            <img class="logo-partner" src="http://web.archive.org/web/20150123050707im_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/img/trial/logo_wistia20.png" alt="">
+                            <img class="logo-partner" src="http://web.archive.org/web/20150123050707im_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/img/trial/logo_vidyard20.png" alt="">
+                        </div>
+                        <div>... and many more!</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="modal-footer">
+                <a class="btn btn-orange" href="http://web.archive.org/web/20150123050707/http://goanimate.com/business/videoplans?hook=preview.site">View Plans &amp; Pricing</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="trial-expired-overlay" class="modal" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 class="modal-title">Oh, your subscription has expired</h3>
+            </div>
+
+            <div class="modal-body text-center">
+                <div class="trial-upsell trial-upsell-expired">
+                    <h2><img src="http://web.archive.org/web/20150123050707im_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/img/trial/lock.png" alt=""> Subscribe now to unlock your account</h2>
+
+                    <p class="text-feature">
+                        Edit and download your videos in HD<br>
+                        Access all GoAnimate templates<br>
+                        Create unlimited characters<br>
+                        Use 1-click publishing                    </p>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <a class="btn btn-orange" href="http://web.archive.org/web/20150123050707/http://goanimate.com/business/videoplans?hook=preview.site">View Plans &amp; Pricing</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- FOOTER -->
+
+<div class="site-footer">
+    <div class="container">
+        <div class="row site-footer-nav">
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h5>About GoAnimate</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/about">Who We Are</a></li>
+                        <li><a href="/contactus">Contact Us</a></li>
+                        <li><a href="/video-maker-tips">Blog</a></li>
+                        <li><a href="/press">Press</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h5>GoAnimate Solutions</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/" target="_blank">GoAnimate for Schools</a></li>
+                        <li class="hidden-xs">&nbsp;</li>
+                        <li class="hidden-xs">&nbsp;</li>
+                        <li class="hidden-xs">&nbsp;</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h5>Usage Guidelines</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/termsofuse">Terms of Service</a></li>
+                        <li><a href="/privacy">Privacy Policy</a></li>
+                        <li class="hidden-xs">&nbsp;</li>
+                        <li class="hidden-xs">&nbsp;</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="site-footer-nav-col">
+                    <h5>Getting Help</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="/teaching-with-video/">Educator Experiences</a></li>
+                        <li><a href="/hc/en-us">Help Center</a></li>
+                        <li class="hidden-xs">&nbsp;</li>
+                        <li class="hidden-xs">&nbsp;</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <div class="site-footer-socials-container">
+                    Follow us on:
+                    <ul class="site-footer-socials clearfix">
+                        <li><a class="facebook" href="https://www.facebook.com/GoAnimateInc">Facebook</a></li>
+                        <li><a class="twitter" href="https://twitter.com/Go4Schools">Twitter</a></li>
+                        <li><a class="linkedin" href="https://www.linkedin.com/company/goanimate">Linked In</a></li>
+                        <li><a class="youtube" href="https://www.youtube.com/user/GoAnimate">YouTube</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="site-footer-copyright">
+                    <img src="http://web.archive.org/web/20150123050707im_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/img/footer/logo_norton.png" alt="Norton Secured">
+                    <img src="http://web.archive.org/web/20150123050707im_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/img/footer/logo_amazon.png" alt="AWS Partner Network">
+                    &nbsp;&nbsp;&nbsp;
+                    <div class="ga-copy">GoAnimate © 2021</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="studio_container" style="display: none;">
+    <div id="studio_holder"><!-- Full Screen Studio -->
+        <div style="top: 50%; position: relative;">
+            This content requires the Adobe Flash Player 10.3. <a href="http://web.archive.org/web/20150123050707/http://get.adobe.com/flashplayer/">Get Flash</a>
+        </div>
+    </div>
+</div>
+
+<div class="modal upsell-modal" id="upsell-modal" data-page="videos" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="close" type="button" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 class="modal-title">Upgrade to unlock more features</h3>
+            </div>
+            <div class="modal-body">
+                <div class="upsell-features-wrapper ">
+                    <div class="upsell-features">
+                        <div class="upsell-feature commercial-license">
+                            <div class="upsell-feature-body">
+                                <div class="upsell-feature-image">
+                                    <img src="http://web.archive.org/web/20150123050707im_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/img/upsell/slide8_commerciallic_icon.png">
+                                </div>
+                                <div class="upsell-feature-title">
+                                    <h2>Commercial License for Business Use</h2>
+                                    <div class="upsell-unlock">Unlock this feature now</div>                                    <p>Get the commercial rights to use your video for business purposes.</p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="text-right">
+                                    <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/business/videoplans">Full comparison &gt;</a>
+                                </div>
+
+                                <ul class="upsell-plan-comparison clearfix">
+                                    <li class="dim">
+                                        <div class="upsell-plan-name">Free<br> Plan</div>
+                                        <div class="upsell-plan-data">N/A</div>
+                                    </li>
+                                    <li class="dim">
+                                        <div class="upsell-plan-name">GoPlus<br> Plan</div>
+                                        <div class="upsell-plan-data">N/A</div>
+                                    </li>
+                                    <li class="dim">
+                                        <div class="upsell-plan-name">GoPublish<br> Plan</div>
+                                        <div class="upsell-plan-data">Limited commercial rights</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoPremium<br> Plan</div>
+                                        <div class="upsell-plan-data">Full commercial rights</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoTeam<br> Plan</div>
+                                        <div class="upsell-plan-data">Full commercial rights</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="upsell-feature business-style">
+                            <div class="upsell-feature-body">
+                                <div class="upsell-feature-image">
+                                    <img src="http://web.archive.org/web/20150123050707im_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/img/upsell/slide3_bizexestyle_icon.png">
+                                </div>
+                                <div class="upsell-feature-title">
+                                    <h2>Business Exclusive Themes</h2>
+                                    <div class="upsell-unlock">Unlock this feature now</div>                                    <p>Access relevant characters, backgrounds and props representing a wide range of industries.</p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="text-right">
+                                    <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/business/videoplans">Full comparison &gt;</a>
+                                </div>
+
+                                <ul class="upsell-plan-comparison clearfix">
+                                    <li class="dim">
+                                        <div class="upsell-plan-name">Free<br> Plan</div>
+                                        <div class="upsell-plan-data">N/A</div>
+                                    </li>
+                                    <li class="dim">
+                                        <div class="upsell-plan-name">GoPlus<br> Plan</div>
+                                        <div class="upsell-plan-data">N/A</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoPublish<br> Plan</div>
+                                        <div class="upsell-plan-data">Access to all themes</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoPremium<br> Plan</div>
+                                        <div class="upsell-plan-data">Access to all themes</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoTeam<br> Plan</div>
+                                        <div class="upsell-plan-data">Access to all themes</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="upsell-feature unlimited-duration">
+                            <div class="upsell-feature-body">
+                                <div class="upsell-feature-image">
+                                    <img src="http://web.archive.org/web/20150123050707im_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/img/upsell/slide2_unlimitedvideo_icon.png">
+                                </div>
+                                <div class="upsell-feature-title">
+                                    <h2>Unlimited Video Duration</h2>
+                                    <div class="upsell-unlock">Unlock this feature now</div>                                    <p>Produce both short form and long form videos with ease using out Video.</p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="text-right">
+                                    <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/business/videoplans">Full comparison &gt;</a>
+                                </div>
+
+                                <ul class="upsell-plan-comparison clearfix">
+                                    <li class="dim">
+                                        <div class="upsell-plan-name">Free<br> Plan</div>
+                                        <div class="upsell-plan-data">&lt; 30 seconds</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoPlus<br> Plan</div>
+                                        <div class="upsell-plan-data">Unlimited <i class="i-upsell-info" title="Excludes exclusive business themes"></i></div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoPublish<br> Plan</div>
+                                        <div class="upsell-plan-data">Unlimited</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoPremium<br> Plan</div>
+                                        <div class="upsell-plan-data">Unlimited</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoTeam<br> Plan</div>
+                                        <div class="upsell-plan-data">Unlimited</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="upsell-feature download-video">
+                            <div class="upsell-feature-body">
+                                <div class="upsell-feature-image">
+                                    <img src="http://web.archive.org/web/20150123050707im_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/img/upsell/slide5_downloadexport_icon.png">
+                                </div>
+                                <div class="upsell-feature-title">
+                                    <h2>Download and Export Your Videos</h2>
+                                    <div class="upsell-unlock">Unlock this feature now</div>                                    <p>Download your video as an mp4 or export directly to our partner sites.</p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="text-right">
+                                    <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/business/videoplans">Full comparison &gt;</a>
+                                </div>
+
+                                <ul class="upsell-plan-comparison clearfix">
+                                    <li class="dim">
+                                        <div class="upsell-plan-name">Free<br> Plan</div>
+                                        <div class="upsell-plan-data">N/A</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoPlus<br> Plan</div>
+                                        <div class="upsell-plan-data">Up to 360p</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoPublish<br> Plan</div>
+                                        <div class="upsell-plan-data">Up to 720p</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoPremium<br> Plan</div>
+                                        <div class="upsell-plan-data">Up to 1080p</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoTeam<br> Plan</div>
+                                        <div class="upsell-plan-data">Up to 1080p</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="upsell-feature watermark">
+                            <div class="upsell-feature-body">
+                                <div class="upsell-feature-image">
+                                    <img src="http://web.archive.org/web/20150123050707im_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/img/upsell/slide4_watermark_icon.png">
+                                </div>
+                                <div class="upsell-feature-title">
+                                    <h2>Watermark Management</h2>
+                                    <div class="upsell-unlock">Unlock this feature now</div>                                    <p>Replace our logo with your own, or remove the watermark completely.</p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="text-right">
+                                    <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/business/videoplans">Full comparison &gt;</a>
+                                </div>
+
+                                <ul class="upsell-plan-comparison clearfix">
+                                    <li class="dim">
+                                        <div class="upsell-plan-name">Free<br> Plan</div>
+                                        <div class="upsell-plan-data">GoAnimate Watermark</div>
+                                    </li>
+                                    <li class="dim">
+                                        <div class="upsell-plan-name">GoPlus<br> Plan</div>
+                                        <div class="upsell-plan-data">GoAnimate Watermark</div>
+                                    </li>
+                                    <li class="dim">
+                                        <div class="upsell-plan-name">GoPublish<br> Plan</div>
+                                        <div class="upsell-plan-data">GoAnimate Watermark</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoPremium<br> Plan</div>
+                                        <div class="upsell-plan-data">Remove/Replace Watermark <i class="i-upsell-info" title="Work with multiple logos, assigning different logos to the watermark in different videos, or remove the watermark entirely"></i></div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoTeam<br> Plan</div>
+                                        <div class="upsell-plan-data">Remove/Replace Watermark <i class="i-upsell-info" title="Work with multiple logos, assigning different logos to the watermark in different videos, or remove the watermark entirely"></i></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="upsell-feature character">
+                            <div class="upsell-feature-body">
+                                <div class="upsell-feature-image">
+                                    <img src="http://web.archive.org/web/20150123050707im_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/img/upsell/slide1_cc_icon.png">
+                                </div>
+                                <div class="upsell-feature-title">
+                                    <h2>Huge Cast of Characters</h2>
+                                    <div class="upsell-unlock">Unlock this feature now</div>                                    <p>Use any of our library characters, or customize at will with our character creators.</p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="text-right">
+                                    <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/business/videoplans">Full comparison &gt;</a>
+                                </div>
+
+                                <ul class="upsell-plan-comparison clearfix">
+                                    <li class="dim">
+                                        <div class="upsell-plan-name">Free<br> Plan</div>
+                                        <div class="upsell-plan-data">N/A</div>
+                                    </li>
+                                    <li class="dim">
+                                        <div class="upsell-plan-name">GoPlus<br> Plan</div>
+                                        <div class="upsell-plan-data">Limited <i class="i-upsell-info" title="Excludes exclusive business theme character creators"></i></div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoPublish<br> Plan</div>
+                                        <div class="upsell-plan-data">Unlimited</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoPremium<br> Plan</div>
+                                        <div class="upsell-plan-data">Unlimited</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoTeam<br> Plan</div>
+                                        <div class="upsell-plan-data">Unlimited</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="upsell-feature version-control">
+                            <div class="upsell-feature-body">
+                                <div class="upsell-feature-image">
+                                    <img src="http://web.archive.org/web/20150123050707im_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/img/upsell/slide6_versioncontrol_icon.png">
+                                </div>
+                                <div class="upsell-feature-title">
+                                    <h2>Version Control</h2>
+                                    <div class="upsell-unlock">Unlock this feature now</div>                                    <p>Roll back to an earlier, saved-over copy with ease or manage multiple versions.</p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="text-right">
+                                    <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/business/videoplans">Full comparison &gt;</a>
+                                </div>
+
+                                <ul class="upsell-plan-comparison clearfix">
+                                    <li class="dim">
+                                        <div class="upsell-plan-name">Free<br> Plan</div>
+                                        <div class="upsell-plan-data">N/A</div>
+                                    </li>
+                                    <li class="dim">
+                                        <div class="upsell-plan-name">GoPlus<br> Plan</div>
+                                        <div class="upsell-plan-data">N/A</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoPublish<br> Plan</div>
+                                        <div class="upsell-plan-data">Available</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoPremium<br> Plan</div>
+                                        <div class="upsell-plan-data">Available</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoTeam<br> Plan</div>
+                                        <div class="upsell-plan-data">Available</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="upsell-feature qvm-contents">
+                            <div class="upsell-feature-body">
+                                <div class="upsell-feature-image">
+                                    <img src="http://web.archive.org/web/20150123050707im_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/img/upsell/slide7_qvm_icon.png">
+                                </div>
+                                <div class="upsell-feature-title">
+                                    <h2>Premium Templates Content</h2>
+                                    <div class="upsell-unlock">Unlock this feature now</div>                                    <p>Access our premium characters and settings, or use your own custom characters in our Templates.</p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="text-right">
+                                    <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/business/videoplans">Full comparison &gt;</a>
+                                </div>
+
+                                <ul class="upsell-plan-comparison clearfix">
+                                    <li class="dim">
+                                        <div class="upsell-plan-name">Free<br> Plan</div>
+                                        <div class="upsell-plan-data">Limited</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoPlus<br> Plan</div>
+                                        <div class="upsell-plan-data">Unlimited</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoPublish<br> Plan</div>
+                                        <div class="upsell-plan-data">Unlimited</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoPremium<br> Plan</div>
+                                        <div class="upsell-plan-data">Unlimited</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoTeam<br> Plan</div>
+                                        <div class="upsell-plan-data">Unlimited</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="upsell-feature qvm-duration">
+                            <div class="upsell-feature-body">
+                                <div class="upsell-feature-image">
+                                    <img src="http://web.archive.org/web/20150123050707im_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/img/upsell/slide9_templates_icon.png">
+                                </div>
+                                <div class="upsell-feature-title">
+                                    <h2>Longer Video Duration for Templates</h2>
+                                    <div class="upsell-unlock">Unlock this feature now</div>                                    <p>Extend your scenes with up to 30 lines of dialog when using our Templates.</p>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="text-right">
+                                    <a href="http://web.archive.org/web/20150123050707/http://goanimate.com/business/videoplans">Full comparison &gt;</a>
+                                </div>
+
+                                <ul class="upsell-plan-comparison clearfix">
+                                    <li class="dim">
+                                        <div class="upsell-plan-name">Free<br> Plan</div>
+                                        <div class="upsell-plan-data">&lt;10 lines</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoPlus<br> Plan</div>
+                                        <div class="upsell-plan-data">&lt;30 lines <i class="i-upsell-info" title="Excludes exclusive business theme templates"></i></div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoPublish<br> Plan</div>
+                                        <div class="upsell-plan-data">&lt;30 lines</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoPremium<br> Plan</div>
+                                        <div class="upsell-plan-data">&lt;30 lines</div>
+                                    </li>
+                                    <li>
+                                        <div class="upsell-plan-name">GoTeam<br> Plan</div>
+                                        <div class="upsell-plan-data">&lt;30 lines</div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="upsell-arrow left" href="#"></a>
+                <a class="upsell-arrow right" href="#"></a>
+
+                <ol class="upsell-index">
+                    <li class="active"><span class="upsell-index-dot"></span></li>
+                    <li><span class="upsell-index-dot"></span></li>
+                    <li><span class="upsell-index-dot"></span></li>
+                    <li><span class="upsell-index-dot"></span></li>
+                    <li><span class="upsell-index-dot"></span></li>
+                    <li><span class="upsell-index-dot"></span></li>
+                    <li><span class="upsell-index-dot"></span></li>
+                    <li><span class="upsell-index-dot"></span></li>
+                    <li><span class="upsell-index-dot"></span></li>
+                </ol>
+            </div>
+            <div class="modal-footer">
+
+                <a class="btn btn-orange btn-upsell" href="http://web.archive.org/web/20150123050707/http://goanimate.com/business/videoplans?hook=upsell.site">Subscribe</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="http://web.archive.org/web/20150123050707js_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/js/upsell.js"></script>
+
+</div>
+<!-- END OF PAGE STRUCTURE -->
+
+
+<script>
+var IE = {
+  Version: function() {
+    var version = 999; // we assume a sane browser
+    if (navigator.appVersion.indexOf("MSIE") != -1)
+      // bah, IE again, lets downgrade version number
+      version = parseFloat(navigator.appVersion.split("MSIE")[1]);
+    return version;
+  }
+}
+
+var UserData = function() {
+  this.userData = null;
+  this.name = location.hostname;
+
+  if (IE.version > 6 && !this.userData) {
+    try {
+      this.userData = document.createElement('INPUT');
+      this.userData.type = "hidden";
+      this.userData.style.display = "none";
+      this.userData.addBehavior ("#default#userData");
+      document.body.appendChild(this.userData);
+      var expires = new Date();
+      expires.setDate(expires.getDate()+365);
+      this.userData.expires = expires.toUTCString();
+    } catch(e) {
+    }
+  }
+
+    this.setItem = function(key, value) {
+
+            this.userData.load(this.name);
+            this.userData.setAttribute(key, value);
+            this.userData.save(this.name);
+    }
+    this.getItem = function(key) {
+            this.userData.load(this.name);
+            return this.userData.getAttribute(key);
+    }
+    this.remove = function(key) {
+            this.userData.load(this.name);
+            this.userData.removeAttribute(key);
+            this.userData.save(this.name);
+    }
+
+}
+
+function locStorage(action, key, value){
+    var result;
+    if (typeof(localStorage) == 'undefined' ) {
+            // localStorge not supported
+    } else {
+        try {
+            switch(action){
+                case 'setItem':
+                    localStorage.setItem(key, value);
+                break;
+                case 'getItem':
+                    result = localStorage.getItem(key);
+                break;
+                case 'removeItem':
+                    localStorage.removeItem(key);
+                break;
+            }
+        return result;
+        } catch (e) {
+            if (e == QUOTA_EXCEEDED_ERR) {
+                //data wasn't successfully saved due to quota exceed so throw an error
+            }
+        }
+    }
+}
+function bannedUser(value){
+    if (value == "true"){
+        document.body.innerHTML="";
+    }
+}
+</script>
+<div style="height:0;overflow:hidden;"><object width="1" height="1">   <param name="vap" value="http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/swf/VAP.swf">   <param name="bgcolor" value="#000000"><param name="allowFullScreen" value="true">   <param name="FlashVars" value="detect=true">   <param name="allowscriptaccess" value="always">   <embed src="http://web.archive.org/web/20150123050707oe_/http://lightspeed.goanimate.com/static/1ac3b7059cc0ab39/go/swf/VAP.swf" flashvars="detect=true" type="application/x-shockwave-flash" width="1" height="1" bgcolor="#ffffff" allowscriptaccess="always" allowfullscreen="true"></object></div>    <script>
+    //check userdata (IE)
+    if (IE.version > 6) {
+        var ud = new UserData();
+        var ud_expiry = ud.getItem("vap");
+        if (ud_expiry > 1421989628){
+            document.body.innerHTML='';
+        }
+    }
+    //check localStorage
+    var ls_expiry = locStorage("getItem", "vap");
+    if (ls_expiry > 1421989628){
+        document.body.innerHTML='';
+    }
+    </script>
+
+<div id="container"></div>
+
+<div id="offer_container">
+</div>
+<script type="text/javascript">
+    </script>
+
+<!-- Start Quantcast tag -->
+<script type="text/javascript">
+    var _qevents = _qevents || [];
+    (function() {
+        var elem = document.createElement('script');
+        elem.src = (document.location.protocol == "https:" ? "http://web.archive.org/web/20150123050707/https://secure" : "http://web.archive.org/web/20150123050707/http://edge")
+            + ".quantserve.com/quant.js";
+        elem.async = true;
+        elem.type = "text/javascript";
+        var scpt = document.getElementsByTagName('script')[0];
+        scpt.parentNode.insertBefore(elem, scpt);
+    })();
+</script>
+<script type="text/javascript">
+    _qevents.push( {"qacct":"p-66CFnJxwubvnE"} );
+</script>
+<noscript>
+&lt;div style="display: none;"&gt;
+    &lt;img src="http://web.archive.org/web/20150123050707im_/http://pixel.quantserve.com/pixel/p-66CFnJxwubvnE.gif" style="display: none;" border="0" height="1" width="1" alt="Quantcast"/&gt;
+&lt;/div&gt;
+</noscript>
+<!-- End Quantcast tag -->
+
+<!-- Start of Async HubSpot Analytics Code -->
+<script type="text/javascript">
+(function(d,s,i,r) {
+if (d.getElementById(i)){return;}
+var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
+n.id=i;n.src='//web.archive.org/web/20150123050707/http://js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/427840.js';
+e.parentNode.insertBefore(n, e);
+})(document,"script","hs-analytics",300000);
+</script>
+<!-- End of Async HubSpot Analytics Code -->
+
+<script type="text/javascript">
+    function logSendShareToGA() {
+        _gaq.push(['_trackPageview', "/pageTracker/goals/reg/contactform"]);
+    }
+
+</script>
+
+<div style="height:0;overflow:hidden;">
+<!-- Google Code for Remarketing tag -->
+<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+<script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 1066565985;
+var google_conversion_label = "zfxRCPeZtAQQ4YLK_AM";
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//web.archive.org/web/20150123050707js_/http://www.googleadservices.com/pagead/conversion.js">
+</script><iframe name="google_conversion_frame" title="Google conversion frame" width="300" height="13" src="http://web.archive.org/web/20150123050707if_/http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?random=1421989628040&amp;cv=7&amp;fst=1421989628040&amp;num=1&amp;fmt=1&amp;label=zfxRCPeZtAQQ4YLK_AM&amp;guid=ON&amp;u_h=768&amp;u_w=1366&amp;u_ah=728&amp;u_aw=1366&amp;u_cd=24&amp;u_his=6&amp;u_tz=0&amp;u_java=false&amp;u_nplug=4&amp;u_nmime=6&amp;frm=0&amp;url=http%3A//goanimate.com/videos/09kLfDswzMA4&amp;vis=2" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no">&amp;lt;img height="1" width="1" border="0" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?frame=0&amp;amp;random=1421989628040&amp;amp;cv=7&amp;amp;fst=1421989628040&amp;amp;num=1&amp;amp;fmt=1&amp;amp;label=zfxRCPeZtAQQ4YLK_AM&amp;amp;guid=ON&amp;amp;u_h=768&amp;amp;u_w=1366&amp;amp;u_ah=728&amp;amp;u_aw=1366&amp;amp;u_cd=24&amp;amp;u_his=6&amp;amp;u_tz=0&amp;amp;u_java=false&amp;amp;u_nplug=4&amp;amp;u_nmime=6&amp;amp;frm=0&amp;amp;url=http%3A//goanimate.com/videos/09kLfDswzMA4&amp;amp;vis=2" /&amp;gt;</iframe>
+<noscript>
+&lt;div style="display:inline;"&gt;
+    &lt;img height="1" width="1" style="border-style:none;" alt="" src="//web.archive.org/web/20150123050707im_/http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1066565985/?value=0&amp;amp;label=zfxRCPeZtAQQ4YLK_AM&amp;amp;guid=ON&amp;amp;script=0"/&gt;
+&lt;/div&gt;
+</noscript>
+</div>
+
+
+
+<!-- Bing ad tracking code -->
+<script type="text/javascript"> if (!window.mstag) mstag = {loadTag : function(){},time : (new Date()).getTime()};</script> <script id="mstag_tops" type="text/javascript" src="//web.archive.org/web/20150123050707js_/http://flex.atdmt.com/mstag/site/9b6ffab3-4c45-48fb-8351-579a59bc477f/mstag.js"></script><script type="text/javascript" src="http://web.archive.org/web/20150123050707js_///flex.atdmt.com/mstag/mstag.1003102000.js"></script> <script type="text/javascript"> mstag.loadTag("analytics", {dedup:"1",domainId:"2303149",type:"1",nonadvertisingcost:"",revenue:"",actionid:"122891"})</script><script type="text/javascript" src="http://web.archive.org/web/20150123050707js_///flex.atdmt.com/mstag/tag/9b6ffab3-4c45-48fb-8351-579a59bc477f/analytics.js?ver=1304250512" gapi_processed="true"></script> <noscript> &lt;iframe src="//web.archive.org/web/20150123050707if_/http://flex.atdmt.com/mstag/tag/9b6ffab3-4c45-48fb-8351-579a59bc477f/analytics.html?dedup=1&amp;amp;domainId=2303149&amp;amp;type=1&amp;amp;nonadvertisingcost=&amp;amp;revenue=&amp;amp;actionid=122891" frameborder="0" scrolling="no" width="1" height="1" style="visibility:hidden;display:none"&gt; &lt;/iframe&gt; </noscript>
+
+
+
+<!--
+     FILE ARCHIVED ON 05:07:07 Jan 23, 2015 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:02:08 Jul 17, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  esindex: 0.011
+  exclusion.robots.policy: 0.353
+  PetaboxLoader3.datanode: 62.369 (4)
+  captures_list: 87.628
+  load_resource: 64.244
+  CDXLines.iter: 21.864 (3)
+  LoadShardBlock: 55.639 (3)
+  cdx.remote: 0.143
+  exclusion.robots: 0.374
+  PetaboxLoader3.resolve: 31.651
+--><iframe name="oauth2relay822686196" id="oauth2relay822686196" src="http://web.archive.org/web/20150123050721/https://accounts.google.com/o/oauth2/postmessageRelay?parent=http%3A%2F%2Fweb.archive.org#rpctoken=289784210&amp;forcesecure=1" tabindex="-1" style="width: 1px; height: 1px; position: absolute; top: -100px;" allow="autoplay 'self'; fullscreen 'self'"></iframe></body></html>
