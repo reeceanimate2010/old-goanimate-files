@@ -15,8 +15,7 @@
 	<theme id="space" name="Space Peepz" thumb="" cc_theme_id="space" />
 	<theme id="ninja" name="Chibi Ninjas" thumb="" cc_theme_id="ninja" />
 	<theme id="anime" name="Anime" thumb="" cc_theme_id="anime" />		
-	<theme id="spacecitizen" name="Space Citizens" thumb="" cc_theme_id="spacecitizen" />
-	<theme id="commoncraft" name="Common Craft" thumb="" cc_theme_id="commoncraft" />			
+	<theme id="spacecitizen" name="Space Citizens" thumb="" cc_theme_id="spacecitizen" />			
 	<theme id="bizmodels" name="Good on Paper" cc_theme_id="bizmodels" />		
 	<word></word>
 	<whiteword />
