@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<theme id="animal" name="Lil' Petz" cc_theme_id="cc2">
+<theme id="animal" name="Animals" cc_theme_id="cc2">
 	<background id="ncc_pet_01bg.swf" name="Countryside" enable="Y" default="Y" is_premium="N" aid="12443" money="0" sharing="0"/>
 	<background id="ncc_pet_02bg.swf" name="Street" enable="Y" default="N" is_premium="N" aid="12444" money="0" sharing="0"/>
 	<background id="ncc_pet_03bg.swf" name="Desert" enable="Y" default="N" is_premium="N" aid="12445" money="0" sharing="0"/>
