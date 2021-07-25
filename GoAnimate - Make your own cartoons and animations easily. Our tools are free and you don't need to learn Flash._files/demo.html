@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0100)http://web.archive.org/web/20100522225325if_/http://goanimate.com/static/go/tutorial/demo3/demo.html -->
+<html><script type="text/javascript" class="__REQUESTLY__SCRIPT">(function (namespace) {
+  window[namespace] = window[namespace] || {};
+  window[namespace].responseRules = {};
+
+  const isApplicableOnUrl = (url) =>
+    window[namespace].responseRules.hasOwnProperty(url);
+  const getResponseRule = (url) => window[namespace].responseRules[url];
+  const notifyRuleApplied = (rule) => {
+    window.postMessage(
+      {
+        from: "requestly",
+        type: "response_rule_applied",
+        id: rule.id,
+      },
+      window.location.href
+    );
+  };
+
+  // Intercept XMLHttpRequest
+  const onReadyStateChange = function () {
+    if (this.readyState === 4 && isApplicableOnUrl(this.responseURL)) {
+      const responseRule = getResponseRule(this.responseURL);
+      const { response } = responseRule;
+      const responseType = this.responseType;
+      const customResponse =
+        response.type === "code"
+          ? responseRule.evaluator({
+              method: this.method,
+              url: this.responseURL,
+              requestHeaders: this.requestHeaders,
+              requestData: this.requestData,
+              responseType: this.responseType,
+              response: this.response,
+            })
+          : response.value;
+
+      Object.defineProperty(this, "response", {
+        get: function () {
+          if (response.type === "static" && responseType === "json") {
+            return JSON.parse(customResponse);
+          }
+          return customResponse;
+        },
+      });
+
+      if (responseType === "" || responseType === "text") {
+        Object.defineProperty(this, "responseText", {
+          get: function () {
+            return customResponse;
+          },
+        });
+      }
+
+      notifyRuleApplied(responseRule);
+    }
+  };
+
+  const XHR = XMLHttpRequest;
+  XMLHttpRequest = function () {
+    const xhr = new XHR();
+    xhr.addEventListener(
+      "readystatechange",
+      onReadyStateChange.bind(xhr),
+      false
+    );
+    return xhr;
+  };
+  XMLHttpRequest.prototype = XHR.prototype;
+  Object.entries(XHR).map(([key, val]) => {
+    XMLHttpRequest[key] = val;
+  });
+
+  const open = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function (method) {
+    this.method = method;
+    open.apply(this, arguments);
+  };
+
+  const send = XMLHttpRequest.prototype.send;
+  XMLHttpRequest.prototype.send = function (data) {
+    this.requestData = data;
+    send.apply(this, arguments);
+  };
+
+  let setRequestHeader = XMLHttpRequest.prototype.setRequestHeader;
+  XMLHttpRequest.prototype.setRequestHeader = function (header, value) {
+    this.requestHeaders = this.requestHeaders || {};
+    this.requestHeaders[header] = value;
+    setRequestHeader.apply(this, arguments);
+  };
+
+  // Intercept fetch API
+  const _fetch = fetch;
+  fetch = async (resource, initOptions) => {
+    const url =
+      resource instanceof Request ? resource.url : resource.toString();
+    const fetchedResponse = await _fetch(resource, initOptions);
+
+    if (!isApplicableOnUrl(url)) {
+      return fetchedResponse;
+    }
+
+    let method, requestHeaders, requestData;
+
+    if (resource instanceof Request) {
+      const request = resource.clone();
+      method = request.method || "GET";
+      requestHeaders =
+        request.headers &&
+        Array.from(request.headers).reduce((obj, [key, val]) => {
+          obj[key] = val;
+          return obj;
+        }, {});
+      requestData = await request.text();
+    } else {
+      method = initOptions.method || "GET";
+      if (initOptions.headers instanceof Headers) {
+        requestHeaders = Array.from(initOptions.headers).reduce(
+          (obj, [key, val]) => {
+            obj[key] = val;
+            return obj;
+          },
+          {}
+        );
+      } else {
+        requestHeaders = initOptions.headers;
+      }
+      requestData = initOptions.body;
+    }
+
+    const responseRule = getResponseRule(url);
+    const customResponseText =
+      responseRule.response.type === "code"
+        ? responseRule.evaluator({
+            method,
+            url,
+            requestHeaders,
+            requestData,
+            response: await fetchedResponse.text(),
+          })
+        : responseRule.response.value;
+
+    notifyRuleApplied(responseRule);
+
+    return new Response(new Blob([customResponseText]), {
+      status: fetchedResponse.status,
+      statusText: fetchedResponse.statusText,
+      headers: fetchedResponse.headers,
+    });
+  };
+})('__REQUESTLY__')</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./analytics.js.download" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app102.us.archive.org';v.server_ms=1217;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="./playback.bundle.js.download" charset="utf-8"></script>
+<script type="text/javascript" src="./wombat.js.download" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("http://web.archive.org/web");
+  __wm.wombat("http://goanimate.com/static/go/tutorial/demo3/demo.html","20100522225325","http://web.archive.org/","web","/_static/",
+	      "1274568805");
+</script>
+<link rel="stylesheet" type="text/css" href="./banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+	<title>GoAnimate.com Demo</title>
+</head>
+<body style="background-color:white">
+	<div id="container"><embed type="application/x-shockwave-flash" src="http://web.archive.org/web/20100522225325/http://www.youtube.com/v/g9ghWrQLRoE&amp;color1=0xb1b1b1&amp;color2=0xcfcfcf&amp;hl=en&amp;feature=player_embedded&amp;fs=1" width="800" height="605" style="undefined" id="ads" name="ads" bgcolor="#ffffff" quality="high" allowfullscreen="true" allowscriptaccess="always" wmode="transparent" movie="http://web.archive.org/web/20100522225325/http://www.youtube.com/v/g9ghWrQLRoE&amp;color1=0xb1b1b1&amp;color2=0xcfcfcf&amp;hl=en&amp;feature=player_embedded&amp;fs=1"></div>
+	<script type="text/javascript" src="./swfobject.js(1).download"></script>
+	<script type="text/javascript">
+		var so1 = new SWFObject("http://web.archive.org/web/20100522225325/http://www.youtube.com/v/g9ghWrQLRoE&color1=0xb1b1b1&color2=0xcfcfcf&hl=en&feature=player_embedded&fs=1", "ads", "800", "605", "8", "#ffffff");
+		so1.addParam("allowfullscreen", "true");
+		so1.addParam("allowscriptaccess", "always");
+		so1.addParam("wmode", "transparent");
+		so1.addParam("movie", "http://web.archive.org/web/20100522225325/http://www.youtube.com/v/g9ghWrQLRoE&color1=0xb1b1b1&color2=0xcfcfcf&hl=en&feature=player_embedded&fs=1");
+		so1.write("container");
+	</script>
+
+
+<!--
+playback timings (ms):
+  LoadShardBlock: 858.875 (3)
+  captures_list: 893.249
+  RedisCDXSource: 11.037
+  esindex: 0.01
+  CDXLines.iter: 19.528 (3)
+  PetaboxLoader3.resolve: 248.621
+  exclusion.robots: 0.131
+  PetaboxLoader3.datanode: 893.733 (4)
+  exclusion.robots.policy: 0.122
+  load_resource: 319.438
+--></body></html>
