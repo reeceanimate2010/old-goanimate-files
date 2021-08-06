@@ -76,4 +76,54 @@
 	<prop id="ncc_pet_05prop.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12440" money="0" sharing="0"/>
 	<prop id="ncc_pet_06prop_1.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12441" money="0" sharing="0"/>
 	<prop id="ncc_pet_06prop_2.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="12442" money="0" sharing="0"/>
+	</prop>
+<char id="30312547" name="Broken Heart Cat" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+	    <tags>cc2,_free,_cat:Lil Petz Characters</tags>
+	</char>
+	<char id="30315508" name="Russell" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+	    <tags>cc2,_free,_cat:Lil Petz Characters</tags>
+	</char>
+	<char id="30545539" name="Magic Hat Bunny" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+	    <tags>cc2,_free,_cat:Lil Petz Characters</tags>
+	</char>	
+	<char id="30569218" name="Lumpkin" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+	    <tags>cc2,_free,_cat:Lil Petz Characters</tags>
+	</char>	
+	<char id="30569565" name="Gray Bunny" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+	    <tags>cc2,_free,_cat:Lil Petz Characters</tags>
+	</char>		
+	<char id="30569668" name="Sun-Glassesed Bear" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+	    <tags>cc2,_free,_cat:Lil Petz Characters</tags>
+	</char>	
+	<char id="30570649" name="Hairy Cat" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+	    <tags>cc2,_free,_cat:Lil Petz Characters</tags>
+	</char>	
+	<char id="30571621" name="Terence" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+	    <tags>cc2,_free,_cat:Lil Petz Characters</tags>
+	</char>	
+	<char id="30571875" name="Butcher" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+	    <tags>cc2,_free,_cat:Lil Petz Characters</tags>
+	</char>		
+	<char id="30572052" name="Big Foot" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+	    <tags>cc2,_free,_cat:Lil Petz Characters</tags>
+	</char>
+	<char id="30572536" name="Bunney" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+	    <tags>cc2,_free,_cat:Lil Petz Characters</tags>
+	</char>		
+	<char id="69316565" name="Bunny Mummy" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+	    <tags>cc2,_free,_cat:Lil Petz Characters</tags>
+	</char>
+	<char id="69317916" name="Frankiestein" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+	    <tags>cc2,_free,_cat:Lil Petz Characters</tags>
+	</char>			
+	<char id="69318380" name="Pumpkin" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+	    <tags>cc2,_free,_cat:Lil Petz Characters</tags>
+	</char>
+	<char id="69318711" name="Witch" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+	    <tags>cc2,_free,_cat:Lil Petz Characters</tags>
+	</char>		
+	<char id="127206026" name="Ptep" cc_theme_id="cc2" thumbnail_url="char-default.png" copyable="Y">
+	    <tags>cc2,_free,_cat:Lil Petz Characters</tags>
+      </char>
+
 </theme>
